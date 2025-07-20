@@ -1,0 +1,3702 @@
+{
+  "Tribhuvan University (TU)": {
+    "Institute of Engineering (IOE)": {
+      "Computer Engineering": {
+        "Semester 1": [
+          "Engineering Chemistry",
+          "Calculus I",
+          "Engineering Drawing I",
+          "Engineering Physics I",
+          "Fundamental of Thermodynamics & Heat Transfer",
+          "Workshop Technology"
+        ],
+        "Semester 2": [
+          "Calculus II",
+          "Engineering Drawing II",
+          "Engineering Physics II",
+          "Basic Electronics Engineering",
+          "Basic Electrical Engineering"
+        ],
+        "Semester 3": [
+          "Object Oriented Programming",
+          "Electric Circuit Theory",
+          "Theory of Computation",
+          "Electronics Devices and Circuit",
+          "Digital Logic",
+          "Electromagnetism"
+        ],
+        "Semester 4": [
+          "Numerical Method",
+          "Applied Mathematics",
+          "Instrumentation I",
+          "Data Structure and Algorithm",
+          "Microprocessor",
+          "Discrete Structure"
+        ],
+        "Semester 5": [
+          "Computer Graphics",
+          "Data Communication",
+          "Instrumentation II",
+          "Software Engineering",
+          "Computer Organization and Architecture",
+          "Probability and Statistics"
+        ],
+        "Semester 6": [
+          "Operating System",
+          "Database Management System",
+          "Artificial Intelligence",
+          "Embedded System",
+          "Object Oriented Analysis and Design",
+          "Minor Project"
+        ],
+        "Semester 7": [
+          "Project Management",
+          "Computer Networks",
+          "Distributed System",
+          "Digital Signal Analysis and Processing",
+          "Organization and Management",
+          "Energy, Environment and Society"
+        ],
+        "Semester 8": [
+          "Information System",
+          "Internet and Intranet",
+          "Simulation and Modeling",
+          "Project (Major)"
+        ]
+      },
+      "Civil Engineering": {
+        "Semester 1": [
+          "Engineering Chemistry",
+          "Calculus I",
+          "Engineering Drawing I",
+          "Engineering Physics I",
+          "Fundamental of Thermodynamics & Heat Transfer",
+          "Workshop Technology"
+        ],
+        "Semester 2": [
+          "Calculus II",
+          "Engineering Drawing II",
+          "Engineering Physics II",
+          "Basic Electronics Engineering",
+          "Basic Electrical Engineering"
+        ],
+        "Semester 3": [
+          "Surveying I",
+          "Mechanics of Solids",
+          "Building Technology",
+          "Fluid Mechanics",
+          "Engineering Geology"
+        ],
+        "Semester 4": [
+          "Surveying II",
+          "Theory of Structures",
+          "Hydraulics",
+          "Soil Mechanics",
+          "Construction Technology"
+        ],
+        "Semester 5": [
+          "Structural Analysis",
+          "Water Supply Engineering",
+          "Transportation Engineering I",
+          "Concrete Technology"
+        ],
+        "Semester 6": [
+          "Foundation Engineering",
+          "Highway Engineering",
+          "Irrigation Engineering",
+          "Design of Steel and Timber Structures"
+        ],
+        "Semester 7": [
+          "Design of RCC Structures",
+          "Sanitary Engineering",
+          "Project Engineering",
+          "Engineering Economics"
+        ],
+        "Semester 8": [
+          "Construction Management",
+          "Hydropower Engineering",
+          "Major Project"
+        ]
+      },
+      "Electrical Engineering": {
+        "Semester 1": [
+          "Engineering Chemistry",
+          "Calculus I",
+          "Engineering Drawing I",
+          "Engineering Physics I",
+          "Fundamental of Thermodynamics & Heat Transfer",
+          "Workshop Technology"
+        ],
+        "Semester 2": [
+          "Calculus II",
+          "Engineering Drawing II",
+          "Engineering Physics II",
+          "Basic Electronics Engineering",
+          "Basic Electrical Engineering"
+        ],
+        "Semester 3": [
+          "Electric Circuit Theory",
+          "Electronics Devices and Circuit",
+          "Electromagnetism",
+          "Digital Logic",
+          "Instrumentation I"
+        ],
+        "Semester 4": [
+          "Numerical Method",
+          "Applied Mathematics",
+          "Microprocessor",
+          "Power System Analysis",
+          "Control System"
+        ],
+        "Semester 5": [
+          "Power Electronics",
+          "Electrical Machines",
+          "Communication System",
+          "Energy Conversion"
+        ],
+        "Semester 6": [
+          "High Voltage Engineering",
+          "Protection & Switchgear",
+          "Renewable Energy",
+          "Minor Project"
+        ],
+        "Semester 7": [
+          "Power System Operation & Control",
+          "Industrial Electronics",
+          "Project Management",
+          "Organization and Management"
+        ],
+        "Semester 8": [
+          "Major Project",
+          "Advanced Power System",
+          "Industrial Management"
+        ]
+      },
+      "Mechanical Engineering": {
+        "Semester 1": [
+          "Engineering Chemistry",
+          "Calculus I",
+          "Engineering Drawing I",
+          "Engineering Physics I",
+          "Fundamental of Thermodynamics & Heat Transfer",
+          "Workshop Technology"
+        ],
+        "Semester 2": [
+          "Calculus II",
+          "Engineering Drawing II",
+          "Engineering Physics II",
+          "Basic Electronics Engineering",
+          "Basic Electrical Engineering"
+        ],
+        "Semester 3": [
+          "Applied Mechanics",
+          "Strength of Materials",
+          "Thermodynamics",
+          "Machine Drawing",
+          "Manufacturing Process"
+        ],
+        "Semester 4": [
+          "Fluid Mechanics",
+          "Heat Transfer",
+          "Theory of Machines",
+          "Engineering Materials",
+          "Electrical Machines"
+        ],
+        "Semester 5": [
+          "Internal Combustion Engines",
+          "Machine Design",
+          "Fluid Machinery",
+          "Mechanical Vibration",
+          "Engineering Economics"
+        ],
+        "Semester 6": [
+          "Refrigeration and Air Conditioning",
+          "Power Plant Engineering",
+          "Automobile Engineering",
+          "Instrumentation and Control",
+          "Minor Project"
+        ],
+        "Semester 7": [
+          "Industrial Engineering",
+          "Energy Audit and Management",
+          "Project Management",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 8": [
+          "Major Project",
+          "Elective III",
+          "Elective IV",
+          "Organization and Management"
+        ]
+      },
+      "Architecture": {
+        "Semester 1": [
+          "Architectural Design I",
+          "Building Construction I",
+          "History of Architecture",
+          "Environmental Science",
+          "Mathematics",
+          "Freehand Drawing"
+        ],
+        "Semester 2": [
+          "Architectural Design II",
+          "Building Construction II",
+          "Theory of Structures",
+          "Building Materials",
+          "Surveying",
+          "Perspective Drawing"
+        ],
+        "Semester 3": [
+          "Architectural Design III",
+          "Building Construction III",
+          "Structural Design",
+          "Building Services",
+          "Computer Applications",
+          "Working Drawing"
+        ],
+        "Semester 4": [
+          "Architectural Design IV",
+          "Building Construction IV",
+          "Reinforced Concrete Design",
+          "Specifications & Estimates",
+          "Site Planning",
+          "Landscape Architecture"
+        ],
+        "Semester 5": [
+          "Architectural Design V",
+          "Steel Structure Design",
+          "Housing",
+          "Urban Planning",
+          "Professional Practice",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Architectural Design VI",
+          "Thesis Preparation",
+          "Conservation of Historical Buildings",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Thesis Project I",
+          "Elective IV",
+          "Elective V"
+        ],
+        "Semester 8": [
+          "Thesis Project II",
+          "Elective VI",
+          "Elective VII"
+        ]
+      }
+    },
+    "Institute of Medicine (IOM)": {
+      "MBBS": {
+        "Year 1": [
+          "Anatomy",
+          "Physiology",
+          "Biochemistry",
+          "Community Medicine",
+          "Medical Ethics"
+        ],
+        "Year 2": [
+          "Pathology",
+          "Pharmacology",
+          "Microbiology",
+          "Forensic Medicine",
+          "Community Medicine II"
+        ],
+        "Year 3": [
+          "Internal Medicine",
+          "Surgery",
+          "Obstetrics & Gynecology",
+          "Pediatrics",
+          "Orthopedics"
+        ],
+        "Year 4": [
+          "Psychiatry",
+          "Dermatology",
+          "Ophthalmology",
+          "ENT",
+          "Radiology",
+          "Anesthesiology"
+        ],
+        "Year 5": [
+          "Clinical Postings",
+          "Internship Preparation",
+          "Research Methodology",
+          "Electives"
+        ]
+      },
+      "BDS": {
+        "Year 1": [
+          "Dental Anatomy",
+          "Oral Biology",
+          "General Anatomy",
+          "Physiology",
+          "Biochemistry"
+        ],
+        "Year 2": [
+          "Dental Materials",
+          "Pathology",
+          "Microbiology",
+          "Pharmacology",
+          "General Medicine"
+        ],
+        "Year 3": [
+          "Oral Pathology",
+          "Oral Medicine",
+          "Conservative Dentistry",
+          "Prosthodontics",
+          "Periodontics"
+        ],
+        "Year 4": [
+          "Oral Surgery",
+          "Orthodontics",
+          "Pedodontics",
+          "Community Dentistry",
+          "Oral Radiology"
+        ],
+        "Year 5": [
+          "Clinical Postings",
+          "Internship",
+          "Research Project",
+          "Electives"
+        ]
+      },
+      "B.Sc Nursing": {
+        "Year 1": [
+          "Fundamentals of Nursing",
+          "Anatomy & Physiology",
+          "Microbiology",
+          "Psychology",
+          "Sociology"
+        ],
+        "Year 2": [
+          "Medical Surgical Nursing",
+          "Pharmacology",
+          "Pathology",
+          "Nutrition",
+          "Communication"
+        ],
+        "Year 3": [
+          "Community Health Nursing",
+          "Pediatric Nursing",
+          "Obstetric Nursing",
+          "Mental Health Nursing"
+        ],
+        "Year 4": [
+          "Nursing Administration",
+          "Nursing Research",
+          "Clinical Specialization",
+          "Internship"
+        ]
+      }
+    },
+    "Faculty of Management (FOM)": {
+      "BBA": {
+        "Semester 1": [
+          "Business English",
+          "Business Mathematics I",
+          "Financial Accounting and Analysis",
+          "Principles of Management"
+        ],
+        "Semester 2": [
+          "Business Communication",
+          "Business Mathematics II",
+          "Introductory Macroeconomics",
+          "Organizational Behavior & Human Resource Management"
+        ],
+        "Semester 3": [
+          "Business Statistics",
+          "Management Information System",
+          "Business Finance",
+          "Financial Management"
+        ],
+        "Semester 4": [
+          "Cost and Management Accounting",
+          "Business Law",
+          "Financial Institutions and Markets",
+          "Marketing Management"
+        ],
+        "Semester 5": [
+          "Business Environment and Strategic Management",
+          "Fundamentals of Investment",
+          "Business Research Methods",
+          "Taxation in Nepal"
+        ],
+        "Semester 6": [
+          "Operations Management",
+          "International Business",
+          "Nepalese Society and Politics",
+          "E-commerce"
+        ],
+        "Semester 7": [
+          "Financial Derivatives",
+          "Marketing Research",
+          "Summer Project",
+          "Focus Area Course I"
+        ],
+        "Semester 8": [
+          "Corporate Governance",
+          "Internship",
+          "Focus Area Course II",
+          "Focus Area Course III"
+        ]
+      },
+      "BBS": {
+        "Semester 1": [
+          "Business English",
+          "Microeconomics",
+          "Financial Accounting",
+          "Principles of Management"
+        ],
+        "Semester 2": [
+          "Business Communication",
+          "Macroeconomics",
+          "Cost and Management Accounting",
+          "Fundamentals of Marketing"
+        ],
+        "Semester 3": [
+          "Business Statistics",
+          "Organizational Behavior",
+          "Business Law",
+          "Fundamentals of Financial Management"
+        ],
+        "Semester 4": [
+          "Business Environment & Strategy",
+          "Human Resource Management",
+          "Taxation in Nepal",
+          "Entrepreneurship"
+        ],
+        "Semester 5": [
+          "Business Research Methods",
+          "Financial Markets & Institutions",
+          "Database Management",
+          "E-Commerce"
+        ],
+        "Semester 6": [
+          "Operations Management",
+          "International Business",
+          "Project Work",
+          "Elective I"
+        ],
+        "Semester 7": [
+          "Auditing",
+          "Business Ethics",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Strategic Management",
+          "Internship",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "MBS": {
+        "Semester 1": [
+          "Management Theory",
+          "Managerial Economics",
+          "Accounting for Managers",
+          "Organizational Behavior"
+        ],
+        "Semester 2": [
+          "Business Research Methods",
+          "Financial Management",
+          "Marketing Management",
+          "Operations Management"
+        ],
+        "Semester 3": [
+          "Strategic Management",
+          "Human Resource Management",
+          "Information Systems",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Thesis",
+          "Elective II",
+          "Elective III",
+          "Elective IV"
+        ]
+      }
+    },
+    "Faculty of Science": {
+      "BSc CSIT": {
+        "Semester 1": [
+          "C Programming",
+          "Digital Logic",
+          "Mathematics I",
+          "Physics"
+        ],
+        "Semester 2": [
+          "Object Oriented Programming",
+          "Discrete Structure",
+          "Mathematics II",
+          "Statistics I"
+        ],
+        "Semester 3": [
+          "Data Structure & Algorithms",
+          "Computer Architecture",
+          "Mathematics III",
+          "Statistics II"
+        ],
+        "Semester 4": [
+          "Operating System",
+          "Database",
+          "Computer Networks",
+          "Numerical Methods"
+        ],
+        "Semester 5": [
+          "Software Engineering",
+          "Web Technology",
+          "Artificial Intelligence",
+          "Cryptography"
+        ],
+        "Semester 6": [
+          "Compiler Design",
+          "Simulation & Modeling",
+          "Data Mining",
+          "Net Centric Computing"
+        ],
+        "Semester 7": [
+          "Advanced Java",
+          "Cloud Computing",
+          "Minor Project",
+          "Elective I"
+        ],
+        "Semester 8": [
+          "Major Project",
+          "Elective II",
+          "Elective III"
+        ]
+      },
+      "BSc Physics": {
+        "Semester 1": [
+          "Mechanics",
+          "Waves & Optics",
+          "Mathematics I",
+          "Thermodynamics"
+        ],
+        "Semester 2": [
+          "Electricity & Magnetism",
+          "Modern Physics",
+          "Mathematics II",
+          "Electronics I"
+        ],
+        "Semester 3": [
+          "Quantum Mechanics",
+          "Statistical Physics",
+          "Mathematical Physics",
+          "Electronics II"
+        ],
+        "Semester 4": [
+          "Nuclear Physics",
+          "Solid State Physics",
+          "Computational Physics",
+          "Electrodynamics"
+        ],
+        "Semester 5": [
+          "Advanced Quantum Mechanics",
+          "Astrophysics",
+          "Laser Physics",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Particle Physics",
+          "Condensed Matter Physics",
+          "Elective II",
+          "Project Work"
+        ],
+        "Semester 7": [
+          "Advanced Electrodynamics",
+          "Plasma Physics",
+          "Elective III",
+          "Seminar"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "BSc Chemistry": {
+        "Semester 1": [
+          "General Chemistry",
+          "Inorganic Chemistry I",
+          "Mathematics I",
+          "Physics"
+        ],
+        "Semester 2": [
+          "Organic Chemistry I",
+          "Physical Chemistry I",
+          "Mathematics II",
+          "Statistics"
+        ],
+        "Semester 3": [
+          "Inorganic Chemistry II",
+          "Organic Chemistry II",
+          "Physical Chemistry II",
+          "Analytical Chemistry"
+        ],
+        "Semester 4": [
+          "Organic Chemistry III",
+          "Physical Chemistry III",
+          "Analytical Chemistry II",
+          "Environmental Chemistry"
+        ],
+        "Semester 5": [
+          "Inorganic Chemistry III",
+          "Biochemistry",
+          "Industrial Chemistry",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Polymer Chemistry",
+          "Medicinal Chemistry",
+          "Elective II",
+          "Project Work"
+        ],
+        "Semester 7": [
+          "Advanced Organic Chemistry",
+          "Spectroscopy",
+          "Elective III",
+          "Seminar"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "BSc Mathematics": {
+        "Semester 1": [
+          "Calculus I",
+          "Algebra",
+          "Geometry",
+          "Statistics"
+        ],
+        "Semester 2": [
+          "Calculus II",
+          "Linear Algebra",
+          "Differential Equations",
+          "Physics"
+        ],
+        "Semester 3": [
+          "Real Analysis",
+          "Abstract Algebra",
+          "Vector Calculus",
+          "Mechanics"
+        ],
+        "Semester 4": [
+          "Complex Analysis",
+          "Topology",
+          "Numerical Analysis",
+          "Computer Programming"
+        ],
+        "Semester 5": [
+          "Functional Analysis",
+          "Differential Geometry",
+          "Operations Research",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Probability Theory",
+          "Mathematical Statistics",
+          "Elective II",
+          "Project Work"
+        ],
+        "Semester 7": [
+          "Advanced Analysis",
+          "Number Theory",
+          "Elective III",
+          "Seminar"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective IV",
+          "Elective V"
+        ]
+      }
+    },
+    "Faculty of Humanities & Social Sciences": {
+      "BA English": {
+        "Semester 1": [
+          "Introduction to Literature",
+          "History of English Literature I",
+          "Composition I",
+          "Nepali"
+        ],
+        "Semester 2": [
+          "Poetry",
+          "History of English Literature II",
+          "Composition II",
+          "Sociology"
+        ],
+        "Semester 3": [
+          "Fiction",
+          "Literary Criticism",
+          "American Literature",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Drama",
+          "Linguistics",
+          "Postcolonial Literature",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Modern English Literature",
+          "Research Methodology",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 6": [
+          "Contemporary Literature",
+          "Thesis",
+          "Elective V",
+          "Elective VI"
+        ]
+      },
+      "BCA": {
+        "Semester 1": [
+          "Computer Fundamentals & Applications",
+          "Society & Technology",
+          "English I",
+          "Mathematics I",
+          "Digital Logic"
+        ],
+        "Semester 2": [
+          "C Programming",
+          "Financial Accounting",
+          "English II",
+          "Mathematics II",
+          "Microprocessor & Computer Architecture"
+        ],
+        "Semester 3": [
+          "Data Structures and Algorithms",
+          "Probability & Statistics",
+          "System Analysis and Design",
+          "OOP in Java",
+          "Web Technology I"
+        ],
+        "Semester 4": [
+          "Operating System",
+          "Numerical Methods",
+          "Software Engineering",
+          "Scripting Language",
+          "Web Technology II"
+        ],
+        "Semester 5": [
+          "Database Management System",
+          "Computer Networking",
+          "Mobile Programming",
+          "Cyber Security",
+          "Project I"
+        ],
+        "Semester 6": [
+          "MIS & E-Business",
+          "Dot Net Technology",
+          "Data Analytics",
+          "Project II",
+          "Elective I"
+        ],
+        "Semester 7": [
+          "Network Programming",
+          "Multimedia Systems",
+          "Cloud Computing",
+          "Elective II",
+          "Internship"
+        ],
+        "Semester 8": [
+          "Advanced Java",
+          "Final Project",
+          "Elective III",
+          "Seminar & Viva"
+        ]
+      },
+      "BA Sociology": {
+        "Semester 1": [
+          "Introduction to Sociology",
+          "Social Anthropology",
+          "Nepali Society",
+          "Research Methods I"
+        ],
+        "Semester 2": [
+          "Classical Sociological Theory",
+          "Rural Sociology",
+          "Urban Sociology",
+          "Research Methods II"
+        ],
+        "Semester 3": [
+          "Political Sociology",
+          "Economic Sociology",
+          "Gender Studies",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Sociology of Development",
+          "Environmental Sociology",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 5": [
+          "Contemporary Sociological Theory",
+          "Sociology of Nepal",
+          "Elective IV",
+          "Elective V"
+        ],
+        "Semester 6": [
+          "Thesis",
+          "Elective VI",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      },
+      "BA History": {
+        "Semester 1": [
+          "Ancient History of Nepal",
+          "World History I",
+          "Historical Method",
+          "Nepali Literature"
+        ],
+        "Semester 2": [
+          "Medieval History of Nepal",
+          "World History II",
+          "Archaeology",
+          "English Literature"
+        ],
+        "Semester 3": [
+          "Modern History of Nepal",
+          "History of South Asia",
+          "Historiography",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Contemporary History",
+          "History of Europe",
+          "Cultural History",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Economic History",
+          "Social History",
+          "Research Methodology",
+          "Elective III"
+        ],
+        "Semester 6": [
+          "Thesis",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ]
+      },
+      "BA Political Science": {
+        "Semester 1": [
+          "Introduction to Political Science",
+          "Political Theory",
+          "Nepali Politics",
+          "General Studies"
+        ],
+        "Semester 2": [
+          "Comparative Politics",
+          "International Relations",
+          "Public Administration",
+          "Sociology"
+        ],
+        "Semester 3": [
+          "Constitutional Law",
+          "Political Economy",
+          "South Asian Politics",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Contemporary Political Theory",
+          "Foreign Policy",
+          "Local Government",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Research Methodology",
+          "Human Rights",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 6": [
+          "Thesis",
+          "Elective V",
+          "Elective VI",
+          "Elective VII"
+        ]
+      }
+    },
+    "Faculty of Law": {
+      "LLB": {
+        "Semester 1": [
+          "Jurisprudence",
+          "Constitutional Law",
+          "Legal Language",
+          "Nepalese Legal System"
+        ],
+        "Semester 2": [
+          "Contract Law",
+          "Tort Law",
+          "Criminal Law",
+          "Property Law"
+        ],
+        "Semester 3": [
+          "Administrative Law",
+          "Family Law",
+          "Public International Law",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Company Law",
+          "Taxation Law",
+          "Labor Law",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Criminal Procedure",
+          "Civil Procedure",
+          "Evidence Law",
+          "Elective III"
+        ],
+        "Semester 6": [
+          "Human Rights Law",
+          "Environmental Law",
+          "Thesis",
+          "Elective IV"
+        ]
+      },
+      "LLM": {
+        "Semester 1": [
+          "Advanced Constitutional Law",
+          "Research Methodology",
+          "Comparative Law",
+          "Legal Theory"
+        ],
+        "Semester 2": [
+          "International Law",
+          "Human Rights",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 3": [
+          "Thesis I",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 4": [
+          "Thesis II",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    },
+    "Faculty of Education": {
+      "BEd": {
+        "Semester 1": [
+          "Foundations of Education",
+          "Educational Psychology",
+          "Curriculum Development",
+          "Teaching Methods"
+        ],
+        "Semester 2": [
+          "Educational Sociology",
+          "Measurement & Evaluation",
+          "ICT in Education",
+          "Pedagogy"
+        ],
+        "Semester 3": [
+          "Special Education",
+          "Educational Leadership",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Thesis",
+          "Internship",
+          "Elective II",
+          "Elective III"
+        ]
+      },
+      "MEd": {
+        "Semester 1": [
+          "Advanced Educational Psychology",
+          "Curriculum Design",
+          "Research Methodology",
+          "Educational Leadership"
+        ],
+        "Semester 2": [
+          "Educational Administration",
+          "Comparative Education",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 3": [
+          "Thesis I",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 4": [
+          "Thesis II",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    }
+  },
+  "Kathmandu University (KU)": {
+    "School of Engineering": {
+      "Computer Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Computer Programming",
+          "Engineering Physics",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Data Structures",
+          "Digital Logic",
+          "Electronics"
+        ],
+        "Semester 3": [
+          "Algorithms",
+          "Computer Organization",
+          "Discrete Structures",
+          "Probability & Statistics"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "Database Systems",
+          "Computer Networks",
+          "Microprocessors"
+        ],
+        "Semester 5": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Web Technologies",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Computer Graphics",
+          "Embedded Systems",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Distributed Systems",
+          "Cloud Computing",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Information Security",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "Electronics Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Engineering Physics",
+          "Basic Electrical",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Circuit Theory",
+          "Electronics I",
+          "Digital Logic"
+        ],
+        "Semester 3": [
+          "Signals & Systems",
+          "Electronics II",
+          "Electromagnetics",
+          "Microprocessors"
+        ],
+        "Semester 4": [
+          "Communication Systems",
+          "Control Systems",
+          "Power Electronics",
+          "Instrumentation"
+        ],
+        "Semester 5": [
+          "VLSI Design",
+          "Embedded Systems",
+          "Digital Signal Processing",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Microwave Engineering",
+          "Optical Communication",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Wireless Communication",
+          "Major Project I",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 8": [
+          "Advanced Electronics",
+          "Major Project II",
+          "Elective V",
+          "Elective VI"
+        ]
+      },
+      "Civil Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Engineering Physics",
+          "Engineering Chemistry",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Mechanics",
+          "Materials Science",
+          "Surveying"
+        ],
+        "Semester 3": [
+          "Structural Analysis",
+          "Fluid Mechanics",
+          "Geotechnical Engineering",
+          "Construction Materials"
+        ],
+        "Semester 4": [
+          "Structural Design",
+          "Hydraulics",
+          "Soil Mechanics",
+          "Transportation Engineering"
+        ],
+        "Semester 5": [
+          "Concrete Technology",
+          "Water Resources",
+          "Highway Engineering",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Foundation Engineering",
+          "Environmental Engineering",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Construction Management",
+          "Earthquake Engineering",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Project Management",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "Mechanical Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Engineering Physics",
+          "Engineering Chemistry",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Thermodynamics",
+          "Mechanics",
+          "Material Science"
+        ],
+        "Semester 3": [
+          "Heat Transfer",
+          "Fluid Mechanics",
+          "Machine Design",
+          "Manufacturing Processes"
+        ],
+        "Semester 4": [
+          "Internal Combustion Engines",
+          "Mechanical Vibrations",
+          "Control Systems",
+          "Industrial Engineering"
+        ],
+        "Semester 5": [
+          "Refrigeration & Air Conditioning",
+          "Power Plant Engineering",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 6": [
+          "Automobile Engineering",
+          "Renewable Energy",
+          "Minor Project",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Energy Management",
+          "Advanced Manufacturing",
+          "Major Project I",
+          "Elective IV"
+        ],
+        "Semester 8": [
+          "Project Management",
+          "Major Project II",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    },
+    "School of Management": {
+      "BBA": {
+        "Semester 1": [
+          "Principles of Management",
+          "Microeconomics",
+          "Financial Accounting",
+          "Business Mathematics"
+        ],
+        "Semester 2": [
+          "Organizational Behavior",
+          "Macroeconomics",
+          "Cost Accounting",
+          "Business Statistics"
+        ],
+        "Semester 3": [
+          "Marketing Management",
+          "Business Communication",
+          "Operations Management",
+          "Financial Management"
+        ],
+        "Semester 4": [
+          "Human Resource Management",
+          "Business Law",
+          "Management Information Systems",
+          "Taxation"
+        ],
+        "Semester 5": [
+          "Strategic Management",
+          "Entrepreneurship",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "International Business",
+          "Project Management",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Internship",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      },
+      "MBA": {
+        "Semester 1": [
+          "Managerial Economics",
+          "Financial Accounting",
+          "Organizational Behavior",
+          "Quantitative Methods"
+        ],
+        "Semester 2": [
+          "Marketing Management",
+          "Financial Management",
+          "Operations Management",
+          "Human Resource Management"
+        ],
+        "Semester 3": [
+          "Strategic Management",
+          "Business Research",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 4": [
+          "Thesis",
+          "Elective III",
+          "Elective IV",
+          "Elective V"
+        ]
+      }
+    },
+    "School of Medical Sciences": {
+      "MBBS": {
+        "Year 1": [
+          "Anatomy",
+          "Physiology",
+          "Biochemistry",
+          "Community Medicine",
+          "Medical Ethics"
+        ],
+        "Year 2": [
+          "Pathology",
+          "Pharmacology",
+          "Microbiology",
+          "Forensic Medicine",
+          "Community Medicine II"
+        ],
+        "Year 3": [
+          "Internal Medicine",
+          "Surgery",
+          "Obstetrics & Gynecology",
+          "Pediatrics",
+          "Orthopedics"
+        ],
+        "Year 4": [
+          "Psychiatry",
+          "Dermatology",
+          "Ophthalmology",
+          "ENT",
+          "Radiology"
+        ],
+        "Year 5": [
+          "Clinical Rotations",
+          "Internship",
+          "Research Project",
+          "Electives"
+        ]
+      },
+      "BDS": {
+        "Year 1": [
+          "Dental Anatomy",
+          "Oral Biology",
+          "General Anatomy",
+          "Physiology",
+          "Biochemistry"
+        ],
+        "Year 2": [
+          "Dental Materials",
+          "Pathology",
+          "Microbiology",
+          "Pharmacology",
+          "General Medicine"
+        ],
+        "Year 3": [
+          "Oral Pathology",
+          "Oral Medicine",
+          "Conservative Dentistry",
+          "Prosthodontics"
+        ],
+        "Year 4": [
+          "Oral Surgery",
+          "Orthodontics",
+          "Pediatric Dentistry",
+          "Community Dentistry"
+        ],
+        "Year 5": [
+          "Clinical Practice",
+          "Internship",
+          "Research Project",
+          "Specialization"
+        ]
+      }
+    },
+    "School of Science": {
+      "BSc Computer Science": {
+        "Semester 1": [
+          "Programming Fundamentals",
+          "Mathematics I",
+          "Physics",
+          "English"
+        ],
+        "Semester 2": [
+          "Object Oriented Programming",
+          "Mathematics II",
+          "Statistics",
+          "Discrete Mathematics"
+        ],
+        "Semester 3": [
+          "Data Structures",
+          "Computer Organization",
+          "Database Systems",
+          "Algorithms"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "Computer Networks",
+          "Software Engineering",
+          "Web Technologies"
+        ],
+        "Semester 5": [
+          "Artificial Intelligence",
+          "Computer Graphics",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 6": [
+          "Distributed Systems",
+          "Information Security",
+          "Minor Project",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Advanced Topics",
+          "Major Project I",
+          "Elective IV",
+          "Elective V"
+        ],
+        "Semester 8": [
+          "Major Project II",
+          "Elective VI",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      },
+      "BSc Information Technology": {
+        "Semester 1": [
+          "Programming Fundamentals",
+          "Mathematics I",
+          "Digital Logic",
+          "English"
+        ],
+        "Semester 2": [
+          "Object Oriented Programming",
+          "Mathematics II",
+          "Computer Organization",
+          "Statistics"
+        ],
+        "Semester 3": [
+          "Data Structures",
+          "Database Systems",
+          "Computer Networks",
+          "Web Technologies"
+        ],
+        "Semester 4": [
+          "operating Systems",
+          "Software Engineering",
+          "System Analysis",
+          "Management Information Systems"
+        ],
+        "Semester 5": [
+          "E-Commerce",
+          "Network Security",
+          "Mobile Computing",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "IT Project Management",
+          "Enterprise Systems",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Advanced Web Technologies",
+          "Cloud Computing",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Major Project II",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    },
+    "Faculty of Management": {
+      "BBA": {
+        "Semester 1": [
+          "Principles of Management",
+          "Microeconomics",
+          "Financial Accounting",
+          "Business Mathematics"
+        ],
+        "Semester 2": [
+          "Organizational Behavior",
+          "Macroeconomics",
+          "Cost Accounting",
+          "Business Statistics"
+        ],
+        "Semester 3": [
+          "Marketing Management",
+          "Business Communication",
+          "Operations Management",
+          "Financial Management"
+        ],
+        "Semester 4": [
+          "Human Resource Management",
+          "Business Law",
+          "Management Information Systems",
+          "Taxation"
+        ],
+        "Semester 5": [
+          "Strategic Management",
+          "Entrepreneurship",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "International Business",
+          "Project Management",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Internship",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      },
+      "MBA": {
+        "Semester 1": [
+          "Managerial Economics",
+          "Financial Accounting",
+          "Organizational Behavior",
+          "Quantitative Methods"
+        ],
+        "Semester 2": [
+          "Marketing Management",
+          "Financial Management",
+          "Operations Management",
+          "Human Resource Management"
+        ],
+        "Semester 3": [
+          "Strategic Management",
+          "Business Research",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 4": [
+          "Thesis",
+          "Elective III",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "BHM (Bachelor of Hotel Management)": {
+        "Semester 1": [
+          "Introduction to Hospitality",
+          "Food Production I",
+          "Food & Beverage Service I",
+          "Hospitality Accounting"
+        ],
+        "Semester 2": [
+          "Hotel Operations",
+          "Food Production II",
+          "Food & Beverage Service II",
+          "Hospitality Marketing"
+        ],
+        "Semester 3": [
+          "Front Office Operations",
+          "Housekeeping Operations",
+          "Cost Control",
+          "Tourism Geography"
+        ],
+        "Semester 4": [
+          "Hotel Engineering",
+          "Event Management",
+          "Human Resource Management",
+          "Business Communication"
+        ],
+        "Semester 5": [
+          "Strategic Management",
+          "Revenue Management",
+          "Hospitality Law",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "International Tourism",
+          "Entrepreneurship",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Industrial Training",
+          "Elective IV",
+          "Elective V"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective VI",
+          "Elective VII"
+        ]
+      }
+    },
+    "Faculty of Health Sciences": {
+      "MBBS": {
+        "Year 1": [
+          "Anatomy",
+          "Physiology",
+          "Biochemistry",
+          "Community Medicine",
+          "Medical Ethics"
+        ],
+        "Year 2": [
+          "Pathology",
+          "Pharmacology",
+          "Microbiology",
+          "Forensic Medicine",
+          "Community Medicine II"
+        ],
+        "Year 3": [
+          "Internal Medicine",
+          "Surgery",
+          "Obstetrics & Gynecology",
+          "Pediatrics",
+          "Orthopedics"
+        ],
+        "Year 4": [
+          "Psychiatry",
+          "Dermatology",
+          "Ophthalmology",
+          "ENT",
+          "Radiology"
+        ],
+        "Year 5": [
+          "Clinical Rotations",
+          "Internship",
+          "Research Project",
+          "Electives"
+        ]
+      },
+      "BDS": {
+        "Year 1": [
+          "Dental Anatomy",
+          "Oral Biology",
+          "General Anatomy",
+          "Physiology",
+          "Biochemistry"
+        ],
+        "Year 2": [
+          "Dental Materials",
+          "Pathology",
+          "Microbiology",
+          "Pharmacology",
+          "General Medicine"
+        ],
+        "Year 3": [
+          "Oral Pathology",
+          "Oral Medicine",
+          "Conservative Dentistry",
+          "Prosthodontics"
+        ],
+        "Year 4": [
+          "Oral Surgery",
+          "Orthodontics",
+          "Pediatric Dentistry",
+          "Community Dentistry"
+        ],
+        "Year 5": [
+          "Clinical Practice",
+          "Internship",
+          "Research Project",
+          "Specialization"
+        ]
+      },
+      "B.Sc Nursing": {
+        "Year 1": [
+          "Fundamentals of Nursing",
+          "Anatomy & Physiology",
+          "Microbiology",
+          "Psychology"
+        ],
+        "Year 2": [
+          "Medical Surgical Nursing",
+          "Pharmacology",
+          "Pathology",
+          "Nutrition"
+        ],
+        "Year 3": [
+          "Community Health Nursing",
+          "Pediatric Nursing",
+          "Obstetric Nursing",
+          "Mental Health Nursing"
+        ],
+        "Year 4": [
+          "Nursing Administration",
+          "Nursing Research",
+          "Clinical Specialization",
+          "Internship"
+        ]
+      }
+    },
+    "Faculty of Education": {
+      "BEd": {
+        "Semester 1": [
+          "Foundations of Education",
+          "Educational Psychology",
+          "Curriculum Development",
+          "Teaching Methods"
+        ],
+        "Semester 2": [
+          "Educational Sociology",
+          "Measurement & Evaluation",
+          "ICT in Education",
+          "Pedagogy"
+        ],
+        "Semester 3": [
+          "Special Education",
+          "Educational Leadership",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Thesis",
+          "Internship",
+          "Elective II",
+          "Elective III"
+        ]
+      }
+    }
+  },
+  "Purbanchal University": {
+    "Faculty of Engineering": {
+      "Computer Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Programming in C",
+          "Engineering Physics",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Data Structures",
+          "Digital Logic",
+          "Electronics"
+        ],
+        "Semester 3": [
+          "Algorithms",
+          "Computer Organization",
+          "Discrete Mathematics",
+          "Probability & Statistics"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "Database Systems",
+          "Computer Networks",
+          "Microprocessors"
+        ],
+        "Semester 5": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Web Technologies",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Computer Graphics",
+          "Embedded Systems",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Cloud Computing",
+          "Distributed Systems",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Information Security",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "Civil Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Engineering Physics",
+          "Engineering Chemistry",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Surveying",
+          "Mechanics",
+          "Materials Science"
+        ],
+        "Semester 3": [
+          "Structural Analysis",
+          "Fluid Mechanics",
+          "Geotechnical Engineering",
+          "Construction Materials"
+        ],
+        "Semester 4": [
+          "Structural Design",
+          "Hydraulics",
+          "Soil Mechanics",
+          "Transportation Engineering"
+        ],
+        "Semester 5": [
+          "Concrete Technology",
+          "Water Resources",
+          "Highway Engineering",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Foundation Engineering",
+          "Environmental Engineering",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Construction Management",
+          "Earthquake Engineering",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Project Management",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      }
+    },
+    "Faculty of Management": {
+      "BBA": {
+        "Semester 1": [
+          "Principles of Management",
+          "Microeconomics",
+          "Financial Accounting",
+          "Business Mathematics"
+        ],
+        "Semester 2": [
+          "Organizational Behavior",
+          "Macroeconomics",
+          "Cost Accounting",
+          "Business Statistics"
+        ],
+        "Semester 3": [
+          "Marketing Management",
+          "Business Communication",
+          "Operations Management",
+          "Financial Management"
+        ],
+        "Semester 4": [
+          "Human Resource Management",
+          "Business Law",
+          "Management Information Systems",
+          "Taxation"
+        ],
+        "Semester 5": [
+          "Strategic Management",
+          "Entrepreneurship",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "International Business",
+          "Project Management",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Internship",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      }
+    },
+    "Faculty of Science": {
+      "BSc Computer Science": {
+        "Semester 1": [
+          "Programming Fundamentals",
+          "Mathematics I",
+          "Physics",
+          "English"
+        ],
+        "Semester 2": [
+          "Object Oriented Programming",
+          "Mathematics II",
+          "Statistics",
+          "Discrete Mathematics"
+        ],
+        "Semester 3": [
+          "Data Structures",
+          "Computer Organization",
+          "Database Systems",
+          "Algorithms"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "ComputerNetworks",
+          "Software Engineering",
+          "Web Technologies"
+        ],
+        "Semester 5": [
+          "Artificial Intelligence",
+          "Computer Graphics",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 6": [
+          "Distributed Systems",
+          "Information Security",
+          "Minor Project",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Advanced Topics",
+          "Major Project I",
+          "Elective IV",
+          "Elective V"
+        ],
+        "Semester 8": [
+          "Major Project II",
+          "Elective VI",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      }
+    },
+    "Faculty of Humanities & Social Sciences": {
+      "BCA": {
+        "Semester 1": [
+          "Computer Fundamentals & Applications",
+          "Society & Technology",
+          "English I",
+          "Mathematics I",
+          "Digital Logic"
+        ],
+        "Semester 2": [
+          "C Programming",
+          "Financial Accounting",
+          "English II",
+          "Mathematics II",
+          "Microprocessor & Computer Architecture"
+        ],
+        "Semester 3": [
+          "Data Structures and Algorithms",
+          "Probability & Statistics",
+          "System Analysis and Design",
+          "OOP in Java",
+          "Web Technology I"
+        ],
+        "Semester 4": [
+          "Operating System",
+          "Numerical Methods",
+          "Software Engineering",
+          "Scripting Language",
+          "Web Technology II"
+        ],
+        "Semester 5": [
+          "Database Management System",
+          "Computer Networking",
+          "Mobile Programming",
+          "Cyber Security",
+          "Project I"
+        ],
+        "Semester 6": [
+          "MIS & E-Business",
+          "Dot Net Technology",
+          "Data Analytics",
+          "Project II",
+          "Elective I"
+        ],
+        "Semester 7": [
+          "Network Programming",
+          "Multimedia Systems",
+          "Cloud Computing",
+          "Elective II",
+          "Internship"
+        ],
+        "Semester 8": [
+          "Advanced Java",
+          "Final Project",
+          "Elective III",
+          "Seminar & Viva"
+        ]
+      }
+    }
+  },
+  "Mid-West University": {
+    "Faculty of Engineering": {
+      "Computer Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Programming in C",
+          "Engineering Physics",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Data Structures",
+          "Digital Logic",
+          "Electronics"
+        ],
+        "Semester 3": [
+          "Algorithms",
+          "Computer Organization",
+          "Discrete Mathematics",
+          "Probability & Statistics"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "Database Systems",
+          "Computer Networks",
+          "Microprocessors"
+        ],
+        "Semester 5": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Web Technologies",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Computer Graphics",
+          "Embedded Systems",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Cloud Computing",
+          "Distributed Systems",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Information Security",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "Civil Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Engineering Physics",
+          "Engineering Chemistry",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Surveying",
+          "Mechanics",
+          "Materials Science"
+        ],
+        "Semester 3": [
+          "Structural Analysis",
+          "Fluid Mechanics",
+          "Geotechnical Engineering",
+          "Construction Materials"
+        ],
+        "Semester 4": [
+          "Structural Design",
+          "Hydraulics",
+          "Soil Mechanics",
+          "Transportation Engineering"
+        ],
+        "Semester 5": [
+          "Concrete Technology",
+          "Water Resources",
+          "Highway Engineering",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Foundation Engineering",
+          "Environmental Engineering",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Construction Management",
+          "Earthquake Engineering",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Project Management",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      }
+    },
+    "Faculty of Management": {
+      "BBA": {
+        "Semester 1": [
+          "Principles of Management",
+          "Microeconomics",
+          "Financial Accounting",
+          "Business Mathematics"
+        ],
+        "Semester 2": [
+          "Organizational Behavior",
+          "Macroeconomics",
+          "Cost Accounting",
+          "Business Statistics"
+        ],
+        "Semester 3": [
+          "Marketing Management",
+          "Business Communication",
+          "Operations Management",
+          "Financial Management"
+        ],
+        "Semester 4": [
+          "Human Resource Management",
+          "Business Law",
+          "Management Information Systems",
+          "Taxation"
+        ],
+        "Semester 5": [
+          "Strategic Management",
+          "Entrepreneurship",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "International Business",
+          "Project Management",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Internship",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      }
+    },
+    "Faculty of Education": {
+      "BEd": {
+        "Semester 1": [
+          "Foundations of Education",
+          "Educational Psychology",
+          "Curriculum Development",
+          "Teaching Methods"
+        ],
+        "Semester 2": [
+          "Educational Sociology",
+          "Measurement & Evaluation",
+          "ICT in Education",
+          "Pedagogy"
+        ],
+        "Semester 3": [
+          "Special Education",
+          "Educational Leadership",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Thesis",
+          "Internship",
+          "Elective II",
+          "Elective III"
+        ]
+      }
+    }
+  },
+  "Far-Western University": {
+    "Faculty of Engineering": {
+      "Computer Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Programming in C",
+          "Engineering Physics",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Data Structures",
+          "Digital Logic",
+          "Electronics"
+        ],
+        "Semester 3": [
+          "Algorithms",
+          "Computer Organization",
+          "Discrete Mathematics",
+          "Probability & Statistics"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "Database Systems",
+          "Computer Networks",
+          "Microprocessors"
+        ],
+        "Semester 5": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Web Technologies",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Computer Graphics",
+          "Embedded Systems",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Cloud Computing",
+          "Distributed Systems",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Information Security",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      }
+    },
+    "Faculty of Management": {
+      "BBA": {
+        "Semester 1": [
+          "Principles of Management",
+          "Microeconomics",
+          "Financial Accounting",
+          "Business Mathematics"
+        ],
+        "Semester 2": [
+          "Organizational Behavior",
+          "Macroeconomics",
+          "Cost Accounting",
+          "Business Statistics"
+        ],
+        "Semester 3": [
+          "Marketing Management",
+          "Business Communication",
+          "Operations Management",
+          "Financial Management"
+        ],
+        "Semester 4": [
+          "Human Resource Management",
+          "Business Law",
+          "Management Information Systems",
+          "Taxation"
+        ],
+        "Semester 5": [
+          "Strategic Management",
+          "Entrepreneurship",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "International Business",
+          "Project Management",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Internship",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      }
+    },
+    "Faculty of Arts": {
+      "BA English": {
+        "Semester 1": [
+          "English Literature I",
+          "Language & Communication",
+          "Critical Thinking",
+          "Nepali"
+        ],
+        "Semester 2": [
+          "English Literature II",
+          "Creative Writing",
+          "Media Studies",
+          "Sociology"
+        ],
+        "Semester 3": [
+          "World Literature",
+          "Linguistics",
+          "Cultural Studies",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Contemporary Literature",
+          "Translation Studies",
+          "Film Studies",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Research Methodology",
+          "Literary Theory",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 6": [
+          "Thesis",
+          "Elective V",
+          "Elective VI",
+          "Elective VII"
+        ]
+      }
+    }
+  },
+  "Lumbini Buddhist University": {
+    "Faculty of Buddhist Studies": {
+      "BA Buddhist Studies": {
+        "Semester 1": [
+          "Introduction to Buddhism",
+          "Buddhist Philosophy",
+          "Pali Language",
+          "Meditation Studies"
+        ],
+        "Semester 2": [
+          "Buddhist History",
+          "Buddhist Literature",
+          "Sanskrit",
+          "Comparative Religion"
+        ],
+        "Semester 3": [
+          "Buddhist Ethics",
+          "Buddhist Art & Culture",
+          "Tibetan Language",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Buddhist Psychology",
+          "Buddhist Economics",
+          "Research Methods",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Contemporary Buddhism",
+          "Buddhist Social Work",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 6": [
+          "Thesis",
+          "Elective V",
+          "Elective VI",
+          "Elective VII"
+        ]
+      },
+      "MA Buddhist Studies": {
+        "Semester 1": [
+          "Advanced Buddhist Philosophy",
+          "Buddhist Texts",
+          "Research Methodology",
+          "Comparative Philosophy"
+        ],
+        "Semester 2": [
+          "Buddhist Meditation",
+          "Buddhist Sociology",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 3": [
+          "Thesis I",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 4": [
+          "Thesis II",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    },
+    "Faculty of Management": {
+      "BBA": {
+        "Semester 1": [
+          "Principles of Management",
+          "Microeconomics",
+          "Financial Accounting",
+          "Business Mathematics"
+        ],
+        "Semester 2": [
+          "Organizational Behavior",
+          "Macroeconomics",
+          "Cost Accounting",
+          "Business Statistics"
+        ],
+        "Semester 3": [
+          "Marketing Management",
+          "Business Communication",
+          "Operations Management",
+          "Financial Management"
+        ],
+        "Semester 4": [
+          "Human Resource Management",
+          "Business Law",
+          "Management Information Systems",
+          "Taxation"
+        ],
+        "Semester 5": [
+          "Strategic Management",
+          "Entrepreneurship",
+          "Research Methods",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "International Business",
+          "Project Management",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 7": [
+          "Internship",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      }
+    }
+  },
+  "Nepal Sanskrit University": {
+    "Faculty of Sanskrit Vidya": {
+      "BA Sanskrit": {
+        "Semester 1": [
+          "Sanskrit Grammar",
+          "Vedic Literature",
+          "Classical Literature",
+          "Hindu Philosophy"
+        ],
+        "Semester 2": [
+          "Sanskrit Poetry",
+          "Drama",
+          "Prose Literature",
+          "Comparative Literature"
+        ],
+        "Semester 3": [
+          "Linguistics",
+          "Manuscript Studies",
+          "Archaeology",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Research Methodology",
+          "Translation Studies",
+          "Modern Sanskrit",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Contemporary Issues",
+          "Sanskrit Computing",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 6": [
+          "Thesis",
+          "Elective V",
+          "Elective VI",
+          "Elective VII"
+        ]
+      },
+      "MA Sanskrit": {
+        "Semester 1": [
+          "Advanced Sanskrit Literature",
+          "Philosophical Texts",
+          "Research Methodology",
+          "Comparative Studies"
+        ],
+        "Semester 2": [
+          "Manuscript Editing",
+          "Translation Theory",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 3": [
+          "Thesis I",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 4": [
+          "Thesis II",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    },
+    "Faculty of Jyotish (Astrology)": {
+      "BA Jyotish": {
+        "Semester 1": [
+          "Fundamentals of Jyotish",
+          "Astronomical Calculations",
+          "Sanskrit for Jyotish",
+          "Mathematics"
+        ],
+        "Semester 2": [
+          "Horoscopy",
+          "Predictive Astrology",
+          "Vedic Astronomy",
+          "Statistics"
+        ],
+        "Semester 3": [
+          "Muhurta Shastra",
+          "Palmistry",
+          "Numerology",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Medical Astrology",
+          "Gemstone Therapy",
+          "Vastu Shastra",
+          "Elective II"
+        ],
+        "Semester 5": [
+          "Research Methods",
+          "Computer Applications",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 6": [
+          "Thesis",
+          "Elective V",
+          "Elective VI",
+          "Elective VII"
+        ]
+      }
+    },
+    "Faculty of Ayurveda": {
+      "BAMS (Bachelor of Ayurvedic Medicine & Surgery)": {
+        "Year 1": [
+          "Sanskrit",
+          "Padartha Vigyan",
+          "Rachana Sharir",
+          "Kriya Sharir"
+        ],
+        "Year 2": [
+          "Dravyaguna",
+          "Ras Shastra",
+          "Roga Nidan",
+          "Swasthavritta"
+        ],
+        "Year 3": [
+          "Charaka Samhita",
+          "Sushruta Samhita",
+          "Panchakarma",
+          "Agada Tantra"
+        ],
+        "Year 4": [
+          "Prasuti Tantra",
+          "Kaumarbhritya",
+          "Shalya Tantra",
+          "Shalakya Tantra"
+        ],
+        "Year 5": [
+          "Clinical Training",
+          "Internship",
+          "Research Project",
+          "Specialization"
+        ]
+      }
+    }
+  },
+  "Agriculture & Forestry University": {
+    "Faculty of Agriculture": {
+      "BSc Agriculture": {
+        "Semester 1": [
+          "Introduction to Agriculture",
+          "Plant Biology",
+          "Soil Science",
+          "Agricultural Chemistry"
+        ],
+        "Semester 2": [
+          "Crop Production",
+          "Animal Husbandry",
+          "Agricultural Economics",
+          "Statistics"
+        ],
+        "Semester 3": [
+          "Plant Pathology",
+          "Entomology",
+          "Horticulture",
+          "Agricultural Engineering"
+        ],
+        "Semester 4": [
+          "Plant Breeding",
+          "Agronomy",
+          "Agricultural Extension",
+          "Farm Management"
+        ],
+        "Semester 5": [
+          "Food Technology",
+          "Agricultural Marketing",
+          "Organic Agriculture",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Biotechnology",
+          "Seed Technology",
+          "Post-Harvest Technology",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Research Methods",
+          "Agribusiness",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Major Project II",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ]
+      },
+      "MSc Agriculture": {
+        "Semester 1": [
+          "Advanced Crop Production",
+          "Research Methodology",
+          "Biotechnology",
+          "Elective I"
+        ],
+        "Semester 2": [
+          "Agricultural Systems",
+          "Climate Change",
+          "Elective II",
+          "Elective III"
+        ],
+        "Semester 3": [
+          "Thesis I",
+          "Elective IV",
+          "Elective V"
+        ],
+        "Semester 4": [
+          "Thesis II",
+          "Elective VI",
+          "Elective VII"
+        ]
+      }
+    },
+    "Faculty of Animal Sciences": {
+      "BSc Animal Science": {
+        "Semester 1": [
+          "Animal Biology",
+          "Animal Nutrition",
+          "Livestock Production",
+          "Veterinary Science"
+        ],
+        "Semester 2": [
+          "Animal Breeding",
+          "Dairy Science",
+          "Poultry Science",
+          "Animal Health"
+        ],
+        "Semester 3": [
+          "Feed Technology",
+          "Animal Genetics",
+          "Fisheries",
+          "Agricultural Economics"
+        ],
+        "Semester 4": [
+          "Meat Science",
+          "Animal Welfare",
+          "Livestock Management",
+          "Farm Business"
+        ],
+        "Semester 5": [
+          "Biotechnology",
+          "Animal Reproduction",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 6": [
+          "Research Methods",
+          "Extension Education",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 7": [
+          "Major Project I",
+          "Elective V",
+          "Elective VI"
+        ],
+        "Semester 8": [
+          "Major Project II",
+          "Elective VII",
+          "Elective VIII"
+        ]
+      }
+    },
+    "Faculty of Forestry": {
+      "BSc Forestry": {
+        "Semester 1": [
+          "Forest Botany",
+          "Forest Ecology",
+          "Forest Mathematics",
+          "Chemistry"
+        ],
+        "Semester 2": [
+          "Silviculture",
+          "Forest Mensuration",
+          "Soil Science",
+          "Statistics"
+        ],
+        "Semester 3": [
+          "Forest Management",
+          "Wildlife Management",
+          "Forest Economics",
+          "Forest Policy"
+        ],
+        "Semester 4": [
+          "Forest Protection",
+          "Agroforestry",
+          "Remote Sensing",
+          "GIS Applications"
+        ],
+        "Semester 5": [
+          "Forest Products",
+          "Social Forestry",
+          "Watershed Management",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Forest Biotechnology",
+          "Ecotourism",
+          "Climate Change",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Research Methods",
+          "Project Management",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Major Project II",
+          "Elective IV",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    }
+  },
+  "BP Koirala Institute of Health Sciences": {
+    "Faculty of Medicine": {
+      "MBBS": {
+        "Year 1": [
+          "Anatomy",
+          "Physiology",
+          "Biochemistry",
+          "Community Medicine",
+          "Medical Ethics"
+        ],
+        "Year 2": [
+          "Pathology",
+          "Pharmacology",
+          "Microbiology",
+          "Forensic Medicine",
+          "Community Medicine II"
+        ],
+        "Year 3": [
+          "Internal Medicine",
+          "Surgery",
+          "Obstetrics & Gynecology",
+          "Pediatrics",
+          "Orthopedics"
+        ],
+        "Year 4": [
+          "Psychiatry",
+          "Dermatology",
+          "Ophthalmology",
+          "ENT",
+          "Radiology"
+        ],
+        "Year 5": [
+          "Clinical Rotations",
+          "Internship",
+          "Research Project",
+          "Electives"
+        ]
+      },
+      "MD Programs": {
+        "MD Internal Medicine": [
+          "Advanced Internal Medicine",
+          "Cardiology",
+          "Gastroenterology",
+          "Nephrology",
+          "Research"
+        ],
+        "MD Surgery": [
+          "Advanced Surgery",
+          "Trauma Surgery",
+          "Minimally Invasive Surgery",
+          "Surgical Research"
+        ],
+        "MD Pediatrics": [
+          "Advanced Pediatrics",
+          "Neonatology",
+          "Pediatric Emergency",
+          "Child Development"
+        ],
+        "MD Radiology": [
+          "Advanced Imaging",
+          "Interventional Radiology",
+          "Nuclear Medicine",
+          "Research Methods"
+        ]
+      }
+    },
+    "Faculty of Nursing": {
+      "B.Sc Nursing": {
+        "Year 1": [
+          "Fundamentals of Nursing",
+          "Anatomy & Physiology",
+          "Microbiology",
+          "Psychology"
+        ],
+        "Year 2": [
+          "Medical Surgical Nursing",
+          "Pharmacology",
+          "Pathology",
+          "Nutrition"
+        ],
+        "Year 3": [
+          "Community Health Nursing",
+          "Pediatric Nursing",
+          "Obstetric Nursing",
+          "Mental Health Nursing"
+        ],
+        "Year 4": [
+          "Nursing Administration",
+          "Nursing Research",
+          "Clinical Specialization",
+          "Internship"
+        ]
+      },
+      "M.Sc Nursing": {
+        "Semester 1": [
+          "Advanced Nursing Practice",
+          "Research Methodology",
+          "Nursing Education",
+          "Leadership"
+        ],
+        "Semester 2": [
+          "Specialized Clinical Practice",
+          "Quality Improvement",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 3": [
+          "Thesis I",
+          "Elective III",
+          "Elective IV"
+        ],
+        "Semester 4": [
+          "Thesis II",
+          "Elective V",
+          "Elective VI"
+        ]
+      }
+    },
+    "Faculty of Dentistry": {
+      "BDS": {
+        "Year 1": [
+          "Dental Anatomy",
+          "Oral Biology",
+          "General Anatomy",
+          "Physiology",
+          "Biochemistry"
+        ],
+        "Year 2": [
+          "Dental Materials",
+          "Pathology",
+          "Microbiology",
+          "Pharmacology",
+          "General Medicine"
+        ],
+        "Year 3": [
+          "Oral Pathology",
+          "Oral Medicine",
+          "Conservative Dentistry",
+          "Prosthodontics"
+        ],
+        "Year 4": [
+          "Oral Surgery",
+          "Orthodontics",
+          "Pediatric Dentistry",
+          "Community Dentistry"
+        ],
+        "Year 5": [
+          "Clinical Practice",
+          "Internship",
+          "Research Project",
+          "Specialization"
+        ]
+      }
+    },
+    "Faculty of Public Health": {
+      "MPH (Master of Public Health)": {
+        "Semester 1": [
+          "Epidemiology",
+          "Biostatistics",
+          "Health Systems",
+          "Environmental Health"
+        ],
+        "Semester 2": [
+          "Health Policy",
+          "Social & Behavioral Health",
+          "Global Health",
+          "Research Methods"
+        ],
+        "Semester 3": [
+          "Health Economics",
+          "Disease Control",
+          "Elective I",
+          "Elective II"
+        ],
+        "Semester 4": [
+          "Thesis",
+          "Elective III",
+          "Elective IV",
+          "Elective V"
+        ]
+      }
+    }
+  },
+  "Public Service Commission (Lok Sewa Aayog)": {
+    "Non-Gazetted First Class (Nayab Subba)": {
+      "General Paper": [
+        "Constitution of Nepal",
+        "Governance System",
+        "Current Affairs",
+        "General Administration",
+        "Public Policy",
+        "Basic Office Practices"
+      ],
+      "Technical Paper": [
+        "Report Writing",
+        "Comprehension",
+        "Official Letters and Memos",
+        "Rules and Regulations",
+        "Office Management"
+      ],
+      "Aptitude & GK": [
+        "Logical Reasoning",
+        "Numerical Ability",
+        "General Science",
+        "History and Culture of Nepal",
+        "Geography of Nepal"
+      ]
+    },
+    "Section Officer (Sakha Adhikrit)": {
+      "Paper I – General Studies": [
+        "Constitutional Law",
+        "Administrative Law",
+        "Governance and Development",
+        "Contemporary Issues",
+        "National and International Affairs"
+      ],
+      "Paper II – Administration Aptitude": [
+        "Organizational Behavior",
+        "Office Management",
+        "Planning and Budgeting",
+        "Policy Formulation",
+        "Public Financial Management"
+      ],
+      "Paper III – Essay Writing": [
+        "Essay on Contemporary Issues",
+        "Policy Analysis",
+        "Governance Challenges"
+      ]
+    },
+    "Computer Operator": {
+      "Written Exam": [
+        "Fundamentals of Computer",
+        "Operating System (Windows/Linux)",
+        "MS Word, Excel, PowerPoint",
+        "Email & Internet",
+        "Computer Hardware Basics"
+      ],
+      "Practical Exam": [
+        "Typing Test (Nepali and English)",
+        "Word Processing",
+        "Spreadsheet Tasks",
+        "Presentation Preparation"
+      ]
+    },
+    "Custom Officer (Bhansar Adhikrit)": {
+      "Paper I – Customs and Tax Law": [
+        "Customs Act",
+        "Revenue Code",
+        "Excise Duty",
+        "VAT & Taxation Policies"
+      ],
+      "Paper II – Public Administration & Law": [
+        "Governance in Nepal",
+        "Public Administration Theory",
+        "International Trade Laws",
+        "Border Control Policies"
+      ],
+      "Paper III – Case Analysis": [
+        "Trade Case Studies",
+        "Policy Problem Solving",
+        "Customs Challenges in Nepal"
+      ]
+    },
+    "Judicial Service (Nyayik Sewa)": {
+      "Law Paper I": [
+        "Nepalese Legal System",
+        "Judicial Process",
+        "Civil and Criminal Law",
+        "Legal Drafting"
+      ],
+      "Law Paper II": [
+        "Court Proceedings",
+        "Evidence Act",
+        "Legal Interpretation",
+        "Constitutional Provisions"
+      ],
+      "Essay Writing": [
+        "Legal Reform",
+        "Case Review",
+        "Justice Delivery"
+      ]
+    },
+    "Technical Services (Engineers, Doctors, etc.)": {
+      "Civil Engineer (Gazetted Officer)": [
+        "Surveying",
+        "Structural Engineering",
+        "Hydrology",
+        "Construction Materials",
+        "Soil Mechanics"
+      ],
+      "Computer Engineer": [
+        "Data Structures",
+        "Software Engineering",
+        "Networks and Security",
+        "Database Systems",
+        "System Design"
+      ],
+      "Health Assistant (HA)": [
+        "Community Medicine",
+        "Pharmacology",
+        "Primary Health Care",
+        "Diagnostic Procedures",
+        "Public Health Management"
+      ]
+    }
+  },
+  "Other Universities": {
+    "Mid-West University": {
+      "Faculty of Engineering": {
+        "Computer Engineering": {
+          "Semester 1": [
+            "Engineering Mathematics I",
+            "Computer Programming",
+            "Engineering Physics",
+            "Engineering Drawing"
+          ],
+          "Semester 2": [
+            "Data Structures",
+            "Digital Logic",
+            "Electronics",
+            "Engineering Mathematics II"
+          ],
+          "Semester 3": [
+            "Algorithms",
+            "Computer Organization",
+            "Discrete Structures",
+            "Probability & Statistics"
+          ],
+          "Semester 4": [
+            "Operating Systems",
+            "Database Systems",
+            "Computer Networks",
+            "Numerical Methods"
+          ],
+          "Semester 5": [
+            "Software Engineering",
+            "Artificial Intelligence",
+            "Web Technologies",
+            "Elective I"
+          ],
+          "Semester 6": [
+            "Computer Graphics",
+            "Embedded Systems",
+            "Minor Project",
+            "Elective II"
+          ],
+          "Semester 7": [
+            "Cloud Computing",
+            "Major Project I",
+            "Distributed Systems",
+            "Elective III"
+          ],
+          "Semester 8": [
+            "Major Project II",
+            "Information Security",
+            "Elective IV",
+            "Elective V"
+          ]
+        }
+      }
+    },
+    "Far-Western University": {
+      "Faculty of Education": {
+        "BEd English": {
+          "Semester 1": [
+            "Introduction to Education",
+            "English Grammar",
+            "General Psychology",
+            "Nepali Education System"
+          ],
+          "Semester 2": [
+            "Curriculum and Assessment",
+            "English Phonetics and Phonology",
+            "Educational Sociology",
+            "ICT in Education"
+          ],
+          "Semester 3": [
+            "Literature in ELT",
+            "Pedagogical Grammar",
+            "Instructional Methods",
+            "Educational Research"
+          ],
+          "Semester 4": [
+            "ELT Methodology",
+            "Language Testing and Evaluation",
+            "Practicum",
+            "Thesis"
+          ]
+        }
+      }
+    },
+    "Lumbini Buddhist University": {
+      "Faculty of Humanities": {
+        "BA in Buddhist Studies": {
+          "Semester 1": [
+            "Introduction to Buddhism",
+            "History of Buddhism",
+            "Pali Language I",
+            "Basic Philosophy"
+          ],
+          "Semester 2": [
+            "Life of the Buddha",
+            "Buddhist Ethics",
+            "Pali Language II",
+            "Comparative Religion"
+          ],
+          "Semester 3": [
+            "Buddhist Psychology",
+            "Vinaya Rules",
+            "Research Methodology",
+            "Elective I"
+          ],
+          "Semester 4": [
+            "Thesis",
+            "Meditation Practices",
+            "Buddhism in Nepal",
+            "Elective II"
+          ]
+        }
+      }
+    },
+    "Nepal Sanskrit University": {
+      "Faculty of Sanskrit Studies": {
+        "Shastri (BA in Sanskrit)": {
+          "Semester 1": [
+            "Sanskrit Grammar I",
+            "Vedas Introduction",
+            "Nepali",
+            "Compulsory English"
+          ],
+          "Semester 2": [
+            "Sanskrit Grammar II",
+            "Nyaya Darshan",
+            "Indian Philosophy",
+            "Social Studies"
+          ],
+          "Semester 3": [
+            "Smriti Literature",
+            "Sanskrit Poetry",
+            "Puranas",
+            "Elective I"
+          ],
+          "Semester 4": [
+            "Dissertation",
+            "Classical Sanskrit Drama",
+            "Grammar III",
+            "Elective II"
+          ]
+        }
+      }
+    },
+    "Agriculture & Forestry University": {
+      "Faculty of Agriculture": {
+        "BSc Agriculture": {
+          "Semester 1": [
+            "Introductory Agriculture",
+            "Botany",
+            "Soil Science",
+            "Agricultural Meteorology"
+          ],
+          "Semester 2": [
+            "Crop Production",
+            "Agricultural Economics",
+            "Entomology",
+            "Irrigation"
+          ],
+          "Semester 3": [
+            "Plant Breeding",
+            "Horticulture",
+            "Plant Pathology",
+            "Agricultural Extension"
+          ],
+          "Semester 4": [
+            "Agronomy",
+            "Agricultural Engineering",
+            "Field Crop Production",
+            "Research Methods"
+          ],
+          "Semester 5": [
+            "Post-Harvest Technology",
+            "Weed Management",
+            "Fertilizer Technology",
+            "Elective I"
+          ],
+          "Semester 6": [
+            "Agri-Business",
+            "Seed Technology",
+            "Farm Management",
+            "Elective II"
+          ],
+          "Semester 7": [
+            "Project Work",
+            "Internship",
+            "Elective III",
+            "Elective IV"
+          ],
+          "Semester 8": [
+            "Thesis",
+            "Comprehensive Viva",
+            "Elective V",
+            "Elective VI"
+          ]
+        }
+      }
+    },
+    "BP Koirala Institute of Health Sciences": {
+      "Faculty of Public Health": {
+        "BPH": {
+          "Semester 1": [
+            "Basic Anatomy",
+            "Basic Physiology",
+            "Public Health Foundation",
+            "Medical Sociology"
+          ],
+          "Semester 2": [
+            "Epidemiology I",
+            "Biostatistics I",
+            "Health Promotion",
+            "Demography"
+          ],
+          "Semester 3": [
+            "Epidemiology II",
+            "Environmental Health",
+            "Health Economics",
+            "Behavioral Science"
+          ],
+          "Semester 4": [
+            "Nutrition and Dietetics",
+            "Research Methodology",
+            "Primary Health Care",
+            "Communication in Health"
+          ],
+          "Semester 5": [
+            "Maternal & Child Health",
+            "Occupational Health",
+            "Health System Management",
+            "Fieldwork I"
+          ],
+          "Semester 6": [
+            "Non-Communicable Diseases",
+            "Infectious Disease Control",
+            "Mental Health",
+            "Fieldwork II"
+          ],
+          "Semester 7": [
+            "Public Health Laws",
+            "Project Planning & Evaluation",
+            "Internship",
+            "Elective I"
+          ],
+          "Semester 8": [
+            "Thesis",
+            "Elective II",
+            "Final Presentation"
+          ]
+        }
+      }
+    }
+  },
+  "Pokhara University (PU)": {
+    "Faculty of Humanities & Social Sciences": {
+      "BCA": {
+        "Semester 1": [
+          "Computer Fundamentals & Applications",
+          "Society & Technology",
+          "English I",
+          "Mathematics I",
+          "Digital Logic"
+        ],
+        "Semester 2": [
+          "C Programming",
+          "Financial Accounting",
+          "English II",
+          "Mathematics II",
+          "Microprocessor & Computer Architecture"
+        ],
+        "Semester 3": [
+          "Data Structures and Algorithms",
+          "Probability & Statistics",
+          "System Analysis and Design",
+          "OOP in Java",
+          "Web Technology I"
+        ],
+        "Semester 4": [
+          "Operating System",
+          "Numerical Methods",
+          "Software Engineering",
+          "Scripting Language",
+          "Web Technology II"
+        ],
+        "Semester 5": [
+          "Database Management System",
+          "Computer Networking",
+          "Mobile Programming",
+          "Cyber Security",
+          "Project I"
+        ],
+        "Semester 6": [
+          "MIS & E-Business",
+          "Dot Net Technology",
+          "Data Analytics",
+          "Project II",
+          "Elective I"
+        ],
+        "Semester 7": [
+          "Network Programming",
+          "Multimedia Systems",
+          "Cloud Computing",
+          "Elective II",
+          "Internship"
+        ],
+        "Semester 8": [
+          "Advanced Java",
+          "Final Project",
+          "Elective III",
+          "Seminar & Viva"
+        ]
+      }
+    },
+    "Faculty of Science & Technology": {
+      "Computer Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Programming in C",
+          "Engineering Physics",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Data Structures",
+          "Digital Logic",
+          "Electronics"
+        ],
+        "Semester 3": [
+          "Algorithms",
+          "Computer Organization",
+          "Discrete Mathematics",
+          "Probability & Statistics"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "Database Systems",
+          "Computer Networks",
+          "Microprocessors"
+        ],
+        "Semester 5": [
+          "Software Engineering",
+          "Artificial Intelligence",
+          "Web Technologies",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Computer Graphics",
+          "Embedded Systems",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Cloud Computing",
+          "Distributed Systems",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Information Security",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "Electronics & Communication Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Engineering Physics",
+          "Basic Electrical",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Circuit Theory",
+          "Electronics I",
+          "Digital Logic"
+        ],
+        "Semester 3": [
+          "Signals & Systems",
+          "Electronics II",
+          "Communication Systems",
+          "Microprocessors"
+        ],
+        "Semester 4": [
+          "Digital Signal Processing",
+          "Control Systems",
+          "Electromagnetics",
+          "Instrumentation"
+        ],
+        "Semester 5": [
+          "VLSI Design",
+          "Embedded Systems",
+          "Wireless Communication",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Optical Communication",
+          "Antenna & Wave Propagation",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Satellite Communication",
+          "Digital Communication",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Advanced Electronics",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "Civil Engineering": {
+        "Semester 1": [
+          "Engineering Mathematics I",
+          "Engineering Physics",
+          "Engineering Chemistry",
+          "Engineering Drawing"
+        ],
+        "Semester 2": [
+          "Engineering Mathematics II",
+          "Surveying",
+          "Mechanics",
+          "Materials Science"
+        ],
+        "Semester 3": [
+          "Structural Analysis",
+          "Fluid Mechanics",
+          "Geotechnical Engineering",
+          "Construction Materials"
+        ],
+        "Semester 4": [
+          "Structural Design",
+          "Hydraulics",
+          "Soil Mechanics",
+          "Transportation Engineering"
+        ],
+        "Semester 5": [
+          "Concrete Technology",
+          "Water Resources",
+          "Highway Engineering",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Foundation Engineering",
+          "Environmental Engineering",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Construction Management",
+          "Earthquake Engineering",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Project Management",
+          "Major Project II",
+          "Elective IV",
+          "Elective V"
+        ]
+      },
+      "BSc Computer Science": {
+        "Semester 1": [
+          "Programming Fundamentals",
+          "Mathematics I",
+          "Physics",
+          "English"
+        ],
+        "Semester 2": [
+          "Object Oriented Programming",
+          "Mathematics II",
+          "Statistics",
+          "Discrete Mathematics"
+        ],
+        "Semester 3": [
+          "Data Structures",
+          "Computer Organization",
+          "Database Systems",
+          "Algorithms"
+        ],
+        "Semester 4": [
+          "Operating Systems",
+          "Computer Networks",
+          "Software Engineering",
+          "Web Technologies"
+        ],
+        "Semester 5": [
+          "Artificial Intelligence",
+          "Cryptography",
+          "Compiler Design",
+          "Elective I"
+        ],
+        "Semester 6": [
+          "Mobile Application Development",
+          "Cloud Computing",
+          "Minor Project",
+          "Elective II"
+        ],
+        "Semester 7": [
+          "Machine Learning",
+          "Information Security",
+          "Major Project I",
+          "Elective III"
+        ],
+        "Semester 8": [
+          "Thesis",
+          "Elective IV",
+          "Elective V",
+          "Seminar & Viva"
+        ]
+      }
+    }
+  },
+  "Masters Programs": {
+    "Tribhuvan University": {
+      "MSc Computer Science": {
+        "Semester 1": [
+          "Advanced Algorithms",
+          "Advanced Operating Systems",
+          "Mathematical Foundation for CS",
+          "Computer Networks"
+        ],
+        "Semester 2": [
+          "Machine Learning",
+          "Database Systems",
+          "Advanced Web Technologies",
+          "Research Methodology"
+        ],
+        "Semester 3": [
+          "Elective I",
+          "Elective II",
+          "Seminar",
+          "Mini Project"
+        ],
+        "Semester 4": [
+          "Thesis"
+        ]
+      },
+      "MBA": {
+        "Semester 1": [
+          "Managerial Economics",
+          "Financial Accounting",
+          "Organizational Behavior",
+          "Statistics"
+        ],
+        "Semester 2": [
+          "Marketing Management",
+          "Operations Research",
+          "Corporate Finance",
+          "HR Management"
+        ],
+        "Semester 3": [
+          "Strategic Management",
+          "Entrepreneurship",
+          "Business Ethics",
+          "Elective I"
+        ],
+        "Semester 4": [
+          "Internship",
+          "Thesis"
+        ]
+      }
+    }
+  },
+  "Diploma Programs (CTEVT)": {
+    "Diploma in Civil Engineering": {
+      "Year 1": [
+        "Engineering Drawing",
+        "Construction Materials",
+        "Basic Surveying",
+        "Mathematics I"
+      ],
+      "Year 2": [
+        "Hydraulics",
+        "Transportation Engineering",
+        "Building Construction",
+        "Mathematics II"
+      ],
+      "Year 3": [
+        "Structural Mechanics",
+        "Water Supply & Sanitation",
+        "Estimating & Costing",
+        "Project Work"
+      ]
+    },
+    "Diploma in Information Technology": {
+      "Year 1": [
+        "Fundamentals of IT",
+        "Digital Logic",
+        "Computer Programming",
+        "Mathematics I"
+      ],
+      "Year 2": [
+        "Database Management",
+        "Web Design",
+        "Object-Oriented Programming",
+        "Mathematics II"
+      ],
+      "Year 3": [
+        "Networking",
+        "Software Engineering",
+        "Project Work",
+        "Internship"
+      ]
+    }
+  }
+}
