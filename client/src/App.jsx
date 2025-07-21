@@ -28,6 +28,10 @@ import FloatingButton from './components/FloatingButton';
 import NotesFromTopperPage from './pages/NotesFromTopperPage';
 import AdminRoute from './components/AdminRoute';
 import ManageNotesPage from './pages/admin/ManageNotesPage';
+import GigListPage from './pages/GigListPage';
+import GigDetailPage from './pages/GigDetailPage';
+import CreateGigPage from './pages/CreateGigPage';
+import EditProfilePage from './pages/EditProfilePage';
 
 
 function App() {
@@ -59,18 +63,17 @@ function App() {
 
         <Route path="/notes-from-toppers" element={<NotesFromTopperPage />} />
         <Route path="/admin/notes" element={<AdminRoute><ManageNotesPage /></AdminRoute>} />
+        <Route path="/profile/:id" element={<ProfilePage />} />
+        <Route path="/gigs" element={<GigListPage />} />
+        <Route path="/gigs/:id" element={<GigDetailPage />} />
+        <Route path="/gigs/create" element={<ProtectedRoute><CreateGigPage /></ProtectedRoute>} />
 
-        {/* Protected Routes */}
-        <Route
-          path="/profile"
-          element={
-            <ProtectedRoute>
-              <ProfilePage />
-            </ProtectedRoute>
-          }
-        />
+        <Route path="/profile/edit" element={<ProtectedRoute><EditProfilePage /></ProtectedRoute>} />
+
+
+
       </Routes>
-      <FloatingButton />
+      {/* <FloatingButton /> */}
 
     </>
   );

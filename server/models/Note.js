@@ -18,7 +18,7 @@ const noteSchema = new mongoose.Schema(
       type: String,
       required: true,
       enum: ['Pending', 'Approved', 'Rejected'],
-      default: 'Approved',
+      default: 'Pending',
     },
     rating: {
       type: Number,
@@ -54,13 +54,6 @@ const noteSchema = new mongoose.Schema(
     subject: { type: String, required: true },
     tags: [{ type: String }],
   },
-
-
-
-
-
-
-
   {
     timestamps: true,
   }

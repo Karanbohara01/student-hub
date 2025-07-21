@@ -56,7 +56,7 @@ const CommentSection = ({ noteId }) => {
           />
           <button
             type="submit"
-            className="mt-2 px-6 py-2 bg-[#48aae6] text-white font-bold rounded-xl hover:bg-[#3a8cc4] shadow-md border-2 border-black"
+            className="mt-2 px-6 py-2 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-700 shadow-md border-2 border-black"
             style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
           >
             Post Comment
@@ -75,10 +75,16 @@ const CommentSection = ({ noteId }) => {
           .map(comment => (
             <div key={comment._id} className="flex items-start space-x-3">
               <img
-                src={comment.user.profilePicture || "/default-avatar.png"}
+                src={
+                  comment?.user?.profilePicture
+                    ? `${import.meta.env.VITE_BACKEND_URL}${comment.user.profilePicture}`
+                    : '/default-avatar.png'
+                }
                 alt={comment.user.name}
                 className="w-10 h-10 rounded-full border-2 border-black"
               />
+
+
               <div className="flex-1">
                 <p
                   className="font-bold text-gray-800"

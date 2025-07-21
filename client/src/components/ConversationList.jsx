@@ -37,9 +37,11 @@ const ConversationList = ({ conversations, onSelectConvo, selectedConvoId }) => 
               className={`flex items-center p-4 border-b-2 border-gray-200 cursor-pointer ${isSelected ? 'bg-purple-100' : 'hover:bg-gray-100'}`}
             >
               <div className="relative mr-4">
-                <img src={otherParticipant.profilePicture} alt="avatar" className="w-12 h-12 rounded-full border-2 border-black" />
+                <img src={`${import.meta.env.VITE_BACKEND_URL}${otherParticipant?.profilePicture}`} alt="avatar" className="w-12 h-12 rounded-full border-2 border-black" />
+
+
                 {isOnline && (
-                  <span className="absolute bottom-0 right-0 block h-3.5 w-3.5 rounded-full bg-green-500 border-2 border-white"></span>
+                  <span className="absolute bottom-0 right-0 block h-3.5 w-3.5 rounded-full bg-purple-500 border-2 border-white"></span>
                 )}
               </div>
               <div className="font-bold" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>

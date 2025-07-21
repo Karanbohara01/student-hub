@@ -1,5 +1,7 @@
 const User = require('../models/User.js');
 const Note = require('../models/Note.js');
+const Project = require('../models/Project.js');
+const Review = require('../models/Review.js');
 
 
 const getUserProfile = (req, res) => {
@@ -75,10 +77,64 @@ const removeNoteFromFavorites = async (req, res) => {
     }
 };
 
+const getUserPublicProfile = async (req, res) => {
+    try {
+        const user = await User.findById(req.params.id).select('-password');
+
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+
+        // Fetch the user's contributions and reviews in parallel
+        const [notes, projects, reviews] = await Promise.all([
+            Note.find({ postedBy: user._id, status: 'Approved' }),
+            Project.find({ user: user._id }),
+            Review.find({ seller: user._id }).populate('user', 'name profilePicture')
+        ]);
+
+        res.status(200).json({
+            user,
+            notes,
+            projects,
+            reviews
+        });
+
+    } catch (error) {
+        res.status(500).json({ message: 'Server Error' });
+    }
+};
+
+const updateProfilePicture = async (req, res) => {
+    try {
+        const user = await User.findById(req.user._id);
+        if (user) {
+            if (req.file) {
+                user.profilePicture = `/uploads/${req.file.filename}`;
+                await user.save();
+                res.status(200).json({
+                    message: 'Profile picture updated successfully',
+                    profilePicture: user.profilePicture
+                });
+            } else {
+                res.status(400).json({ message: 'Please upload an image file.' });
+            }
+        } else {
+            res.status(404).json({ message: 'User not found' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Server Error' });
+    }
+};
+
+
+
+
 module.exports = {
     getUserProfile,
     addNoteToFavorites,
     getFavoriteNotes,
     updateUserProfile,
     removeNoteFromFavorites,
+    getUserPublicProfile,
+    updateProfilePicture,
 };

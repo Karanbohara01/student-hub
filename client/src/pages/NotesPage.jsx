@@ -170,7 +170,7 @@ const NotesPage = () => {
         </p>
         <Link
           to="/notes/upload"
-          className="w-full md:w-auto text-center px-6 py-3 bg-[#58cc02] text-white font-bold rounded-xl hover:bg-[#46a302] shadow-md border-2 border-black focus:outline-none focus:ring-2 focus:ring-[#58cc02] focus:ring-offset-2"
+          className="w-full md:w-auto text-center px-6 py-3 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-700 shadow-md border-2 border-black focus:outline-none focus:ring-2 focus:ring-[#58cc02] focus:ring-offset-2"
           style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
           aria-label="Upload a new note"
         >

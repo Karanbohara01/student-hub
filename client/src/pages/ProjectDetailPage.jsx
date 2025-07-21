@@ -60,6 +60,8 @@ const ProjectDetailPage = () => {
 
     const isOwner = userInfo?._id === project.user?._id;
 
+
+
     return (
         <div className="max-w-4xl mx-auto px-4 py-8">
             <div className="flex justify-between items-start mb-4">
@@ -72,9 +74,20 @@ const ProjectDetailPage = () => {
                     </Link>
                 )}
             </div>
-            <p className="text-lg text-gray-500 mb-6" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
+            {/* <p className="text-lg text-gray-500 mb-6" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
                 by {project.user?.name || 'Unknown'}
+            </p> */}
+            <p className="text-lg text-gray-600 mb-6 flex items-center gap-2" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
+                <span className="italic">Crafted by</span>
+                <Link
+                    to={`/profile/${project.user._id}`}
+                    className="font-bold text-[#6e48aa] hover:underline hover:text-[#4a2d80] transition-colors duration-200"
+                >
+                    {project.user?.name || 'Unknown'}
+                </Link>
+                <span className="text-sm">✨</span>
             </p>
+
 
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-black">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-6 pb-6 border-b-2 border-gray-200">

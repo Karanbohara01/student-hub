@@ -1,212 +1,12 @@
 
 
-// import { useState, useEffect, useRef } from 'react';
-// import io from 'socket.io-client';
-// import useAuthStore from '../store/authStore';
-// import chatService from '../services/chatService';
-// import { toast } from 'react-hot-toast';
-// import { FaPaperclip, FaImage, FaVideo, FaFileAlt } from 'react-icons/fa';
-
-// const socket = io('http://localhost:5001');
-
-// const ChatWindow = ({ selectedConvo }) => {
-//   const [messages, setMessages] = useState([]);
-//   const [newMessage, setNewMessage] = useState('');
-//   const [fileToSend, setFileToSend] = useState(null);
-//   const [isTyping, setIsTyping] = useState(false);
-//   const { userInfo } = useAuthStore();
-//   const messagesEndRef = useRef(null);
-//   const fileInputRef = useRef(null);
-//   const typingTimeoutRef = useRef(null);
-
-//   const scrollToBottom = () => {
-//     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-//   };
-
-//   // Fetch message history and join room
-//   useEffect(() => {
-//     if (selectedConvo) {
-//       setFileToSend(null);
-//       const fetchMessages = async () => {
-//         try {
-//           const data = await chatService.getMessages(selectedConvo._id);
-//           setMessages(data);
-//         } catch (error) {
-//           toast.error('Could not fetch messages.', error);
-//         }
-//       };
-//       fetchMessages();
-//       socket.emit('join_room', { room: selectedConvo._id });
-//     }
-//   }, [selectedConvo]);
-
-//   // Listen for incoming real-time events
-//   useEffect(() => {
-//     const handleReceiveMessage = (data) => {
-//       if (data.conversationId === selectedConvo?._id) {
-//         setMessages((prev) => [...prev, data]);
-//       }
-//     };
-//     const handleUserTyping = (data) => {
-//       if (data.userId !== userInfo._id) setIsTyping(true);
-//     };
-//     const handleUserStoppedTyping = () => setIsTyping(false);
-
-//     socket.on('receive_message', handleReceiveMessage);
-//     socket.on('user_typing', handleUserTyping);
-//     socket.on('user_stopped_typing', handleUserStoppedTyping);
-
-//     return () => {
-//       socket.off('receive_message', handleReceiveMessage);
-//       socket.off('user_typing', handleUserTyping);
-//       socket.off('user_stopped_typing', handleUserStoppedTyping);
-//     };
-//   }, [selectedConvo, userInfo._id]);
-
-//   // Auto-scroll on new messages
-//   useEffect(() => {
-//     scrollToBottom();
-//   }, [messages]);
-
-//   const handleSendMessage = async (e) => {
-//     e.preventDefault();
-//     if (newMessage.trim() === '' && !fileToSend) return;
-
-//     let uploadedFileUrl = '';
-//     let uploadedFileType = '';
-
-//     if (fileToSend) {
-//       try {
-//         const formData = new FormData();
-//         formData.append('chatFile', fileToSend);
-//         const uploadRes = await chatService.uploadChatFile(formData);
-//         uploadedFileUrl = uploadRes.fileUrl;
-//         uploadedFileType = fileToSend.type.startsWith('image') ? 'image' :
-//           fileToSend.type.startsWith('video') ? 'video' : 'file';
-//       } catch (error) {
-//         toast.error('File upload failed.', error);
-//         return;
-//       }
-//     }
-
-//     const otherParticipant = selectedConvo.participants.find(p => p._id !== userInfo._id);
-//     const messageData = {
-//       room: selectedConvo._id,
-//       conversationId: selectedConvo._id,
-//       sender: userInfo._id,
-//       receiver: otherParticipant._id,
-//       text: newMessage,
-//       fileUrl: uploadedFileUrl,
-//       fileType: uploadedFileType,
-//     };
-
-//     socket.emit('send_message', messageData);
-//     setNewMessage('');
-//     setFileToSend(null);
-//   };
-
-//   const handleInputChange = (e) => {
-//     setNewMessage(e.target.value);
-//     if (typingTimeoutRef.current) clearTimeout(typingTimeoutRef.current);
-//     socket.emit('typing', { room: selectedConvo._id, userId: userInfo._id });
-//     typingTimeoutRef.current = setTimeout(() => {
-//       socket.emit('stop_typing', { room: selectedConvo._id });
-//     }, 1000);
-//   };
-
-//   if (!selectedConvo) return null;
-
-//   const otherParticipant = selectedConvo.participants.find(p => p._id !== userInfo._id);
-//   const getFileName = (url) => url.split('/').pop();
-
-//   return (
-//     <div className="flex flex-col h-full">
-//       <div className="p-4 border-b-4 border-black flex items-center">
-//         <img src={otherParticipant.profilePicture} alt="avatar" className="w-10 h-10 rounded-full mr-4 border-2 border-black" />
-//         <div>
-//           <h2 className="text-xl font-bold" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>{otherParticipant.name}</h2>
-//           {isTyping && <p className="text-sm text-gray-500 italic">typing...</p>}
-//         </div>
-//       </div>
-
-//       <div className="flex-1 p-4 overflow-y-auto bg-gray-100">
-//         {messages.map((msg, index) => {
-//           const isMe = msg.sender._id ? msg.sender._id === userInfo._id : msg.sender === userInfo._id;
-//           return (
-//             <div key={index} className={`flex mb-2 ${isMe ? 'justify-end' : 'justify-start'}`}>
-//               <div className={`rounded-2xl p-2 max-w-sm ${isMe ? 'bg-[#6e48aa] text-white' : 'bg-white border-2 border-gray-300'}`}>
-//                 {msg.fileUrl && msg.fileType === 'image' && (
-//                   <img
-//                     src={`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`}
-//                     alt="Sent content"
-//                     className="rounded-lg max-w-xs cursor-pointer"
-//                     onClick={() => window.open(`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`)}
-//                   />
-//                 )}
-//                 {msg.fileUrl && msg.fileType === 'video' && (
-//                   <video
-//                     src={`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`}
-//                     controls
-//                     className="rounded-lg max-w-xs"
-//                   />
-//                 )}
-//                 {msg.fileUrl && msg.fileType === 'file' && (
-//                   <a
-//                     href={`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`}
-//                     target="_blank"
-//                     rel="noopener noreferrer"
-//                     download
-//                     className={`flex items-center gap-2 p-2 rounded-lg ${isMe ? 'bg-purple-700 hover:bg-purple-800' : 'bg-gray-200 hover:bg-gray-300'}`}
-//                     style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
-//                   >
-//                     <FaFileAlt className={`${isMe ? 'text-white' : 'text-gray-600'}`} />
-//                     <span className={`font-bold ${isMe ? 'text-white' : 'text-black'}`}>{getFileName(msg.fileUrl)}</span>
-//                   </a>
-//                 )}
-//                 {msg.text && (
-//                   <p className="px-2" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>{msg.text}</p>
-//                 )}
-//               </div>
-//             </div>
-//           );
-//         })}
-//         <div ref={messagesEndRef} />
-//       </div>
-
-//       {fileToSend && (
-//         <div className="p-2 border-t-2 border-black flex items-center justify-between">
-//           <div className="flex items-center">
-//             {fileToSend.type.startsWith('image') ? <FaImage className="text-[#6e48aa] mr-2" /> : fileToSend.type.startsWith('video') ? <FaVideo className="text-[#6e48aa] mr-2" /> : <FaFileAlt className="text-[#6e48aa] mr-2" />}
-//             <p className="text-sm font-bold text-gray-700">Sending file: {fileToSend.name}</p>
-//           </div>
-//           <button onClick={() => setFileToSend(null)} className="text-red-500 font-bold">X</button>
-//         </div>
-//       )}
-
-//       <div className="p-4 border-t-4 border-black">
-//         <form onSubmit={handleSendMessage} className="flex gap-4 items-center">
-//           <button type="button" onClick={() => fileInputRef.current.click()} className="p-3 text-gray-500 hover:text-[#6e48aa]">
-//             <FaPaperclip size={20} />
-//           </button>
-//           <input type="file" ref={fileInputRef} onChange={(e) => setFileToSend(e.target.files[0])} className="hidden" />
-//           <input type="text" placeholder="Type a message..." value={newMessage} onChange={handleInputChange} className="flex-1 px-4 py-2 border-2 border-gray-300 rounded-xl" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }} />
-//           <button type="submit" className="px-6 py-2 bg-[#48aae6] text-white font-bold rounded-xl hover:bg-[#3a8cc4] shadow-md border-2 border-black">
-//             Send
-//           </button>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ChatWindow;
-
 import { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
 import useAuthStore from '../store/authStore';
 import chatService from '../services/chatService';
 import { toast } from 'react-hot-toast';
 import { FaPaperclip, FaImage, FaVideo, FaFileAlt, FaArrowUp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const socket = io('http://localhost:5001');
 
@@ -332,18 +132,25 @@ const ChatWindow = ({ selectedConvo }) => {
     <div className="flex flex-col h-full bg-gray-50">
       {/* Header with Duolingo-style rounded corners */}
       <div className="p-4 bg-white rounded-t-3xl shadow-sm flex items-center">
-        <div className="relative">
-          <img
-            src={otherParticipant.profilePicture}
-            alt="avatar"
-            className="w-12 h-12 rounded-full mr-3 border-4 border-[#6e48aa]"
-          />
-          {isTyping && (
-            <div className="absolute -bottom-1 left-9 bg-green-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">
-              typing...
-            </div>
-          )}
-        </div>
+        <Link to={`/profile/${otherParticipant._id}`} className="flex items-center hover:opacity-80">
+
+          <div className="relative">
+
+
+            <img
+              src={`${import.meta.env.VITE_BACKEND_URL}${otherParticipant.profilePicture}`}
+              alt="avatar"
+              className="w-12 h-12 rounded-full mr-3 border-4 border-[#6e48aa]"
+            />
+
+            {isTyping && (
+              <div className="absolute -bottom-1 left-9 bg-purple-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">
+                typing...
+              </div>
+
+            )}
+          </div>
+        </Link>
         <div>
           <h2 className="text-xl font-bold text-gray-800" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
             {otherParticipant.name}
@@ -403,33 +210,35 @@ const ChatWindow = ({ selectedConvo }) => {
       </div>
 
       {/* File preview with Duolingo-style notification */}
-      {fileToSend && (
-        <div className="mx-4 mb-2 p-3 bg-white rounded-xl shadow-md flex items-center justify-between">
-          <div className="flex items-center">
-            {fileToSend.type.startsWith('image') ? (
-              <FaImage className="text-[#6e48aa] mr-2" />
-            ) : fileToSend.type.startsWith('video') ? (
-              <FaVideo className="text-[#6e48aa] mr-2" />
-            ) : (
-              <FaFileAlt className="text-[#6e48aa] mr-2" />
-            )}
-            <div>
-              <p className="text-sm font-medium text-gray-800 truncate max-w-xs">
-                {fileToSend.name}
-              </p>
-              <p className="text-xs text-gray-500">
-                {(fileToSend.size / 1024).toFixed(1)} KB
-              </p>
+      {
+        fileToSend && (
+          <div className="mx-4 mb-2 p-3 bg-white rounded-xl shadow-md flex items-center justify-between">
+            <div className="flex items-center">
+              {fileToSend.type.startsWith('image') ? (
+                <FaImage className="text-[#6e48aa] mr-2" />
+              ) : fileToSend.type.startsWith('video') ? (
+                <FaVideo className="text-[#6e48aa] mr-2" />
+              ) : (
+                <FaFileAlt className="text-[#6e48aa] mr-2" />
+              )}
+              <div>
+                <p className="text-sm font-medium text-gray-800 truncate max-w-xs">
+                  {fileToSend.name}
+                </p>
+                <p className="text-xs text-gray-500">
+                  {(fileToSend.size / 1024).toFixed(1)} KB
+                </p>
+              </div>
             </div>
+            <button
+              onClick={() => setFileToSend(null)}
+              className="text-gray-400 hover:text-red-500 transition-colors"
+            >
+              ×
+            </button>
           </div>
-          <button
-            onClick={() => setFileToSend(null)}
-            className="text-gray-400 hover:text-red-500 transition-colors"
-          >
-            ×
-          </button>
-        </div>
-      )}
+        )
+      }
 
       {/* Input area with Duolingo-style rounded input */}
       <div className="p-4 bg-white rounded-b-3xl shadow-sm">
@@ -460,13 +269,13 @@ const ChatWindow = ({ selectedConvo }) => {
           <button
             type="submit"
             disabled={!newMessage.trim() && !fileToSend}
-            className="p-3 bg-green-500 text-white rounded-full hover:bg-green-600 disabled:bg-gray-300 disabled:text-gray-500 transition-colors"
+            className="p-3 bg-purple-500 text-white rounded-full hover:bg-purple-600 disabled:bg-gray-300 disabled:text-gray-500 transition-colors"
           >
             <FaArrowUp size={16} />
           </button>
         </form>
       </div>
-    </div>
+    </div >
   );
 };
 

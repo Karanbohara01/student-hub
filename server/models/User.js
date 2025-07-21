@@ -25,6 +25,11 @@ const userSchema = new mongoose.Schema({
         trim: true,
         default: '',
     },
+    isAdmin: {
+        type: Boolean,
+        required: true,
+        default: false,
+    },
     profilePicture: {
         type: String,
         default: 'https://i.imgur.com/V4Rcl9I.png', // Default avatar

@@ -8,13 +8,19 @@ const {
     deleteGig,
     applyForGig,
     approveGigApplicant,
+    rejectGigApplicant,
 } = require('../controllers/gigController.js');
 const { protect } = require('../middleware/authMiddleware.js');
+const upload = require('../middleware/uploadMiddleware.js');
+
 
 // Routes for /api/gigs
 router.route('/')
-    .get(getGigs)
-    .post(protect, createGig);
+    .post(protect, upload.single('gigFile'), createGig) // <-- Add middleware
+    .get(getGigs);
+router.route('/')
+
+
 
 // Route for /api/gigs/:id/accept
 
@@ -28,6 +34,8 @@ router.route('/:id/apply').post(protect, applyForGig);
 
 // New route for approving an applicant
 router.route('/:id/approve').put(protect, approveGigApplicant);
+router.put('/:id/reject', protect, rejectGigApplicant);
+
 
 
 module.exports = router;

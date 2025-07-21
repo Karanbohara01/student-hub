@@ -37,7 +37,7 @@ const VerifyEmailPage = () => {
                 )}
                 {status === 'success' && (
                     <div>
-                        <h1 className="text-2xl font-bold text-green-600 mb-4">Email Verified Successfully!</h1>
+                        <h1 className="text-2xl font-bold text-purple-600 mb-4">Email Verified Successfully!</h1>
                         <p className="text-gray-700">You can now log in to your account.</p>
                         <Link to="/login" className="inline-block mt-6 px-6 py-2 font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700">
                             Go to Login

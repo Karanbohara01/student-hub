@@ -145,7 +145,7 @@ const LeaveReview = ({ targetId, reviewType, onReviewSubmitted }) => {
         />
         <button
           type="submit"
-          className="px-6 py-2 bg-[#58cc02] text-white font-bold rounded-xl hover:bg-[#46a302] shadow-md border-2 border-black"
+          className="px-6 py-2 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-700 shadow-md border-2 border-black"
           style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
         >
           Submit Review

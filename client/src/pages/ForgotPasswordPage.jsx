@@ -22,7 +22,7 @@ const ForgotPasswordPage = () => {
         return (
             <div className="flex justify-center items-center min-h-screen bg-[#6e48aa]">
                 <div className="w-full max-w-md p-8 text-center bg-white rounded-3xl shadow-lg border-4 border-black">
-                    <h1 className="text-2xl font-bold text-green-600 mb-4" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>Request Sent!</h1>
+                    <h1 className="text-2xl font-bold text-purple-600 mb-4" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>Request Sent!</h1>
                     <p className="text-gray-700" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
                         If an account with that email exists, a password reset link has been sent to it.
                     </p>

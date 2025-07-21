@@ -98,11 +98,11 @@ const CreateProjectPage = () => {
                             type="file"
                             onChange={(e) => setScreenshots(e.target.files)}
                             multiple
-                            className="w-full text-duo-gray file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-2 file:border-duo-green file:text-sm file:font-bold file:bg-duo-green/20 file:text-duo-green-dark hover:file:bg-duo-green/30"
+                            className="w-full text-duo-gray file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-2 file:border-duo-purple file:text-sm file:font-bold file:bg-duo-purple/20 file:text-duo-purple-dark hover:file:bg-duo-purple/30"
                         />
                     </div>
 
-                    <button type="submit" className="w-full text-lg font-bold text-white bg-green-500 rounded-2xl p-3 uppercase border-b-4 border-duo-green-dark hover:bg-green-500 active:border-b-2">
+                    <button type="submit" className="w-full text-lg font-bold text-white bg-purple-500 rounded-2xl p-3 uppercase border-b-4 border-duo-purple-dark hover:bg-purple-500 active:border-b-2">
                         List Project
                     </button>
                 </form>

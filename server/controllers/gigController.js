@@ -1,16 +1,19 @@
 const Gig = require('../models/Gig.js');
 
+
+
 const createGig = async (req, res) => {
     try {
-        const { title, description, subject, budget, deadline } = req.body;
+        const { title, subject, budget, deadline, description } = req.body;
 
         const gig = new Gig({
-            requester: req.user._id, // from protect middleware
+            requester: req.user._id,
             title,
-            description,
             subject,
             budget,
             deadline,
+            description,
+            filePath: req.file ? `/uploads/${req.file.filename}` : undefined, // <-- Add this
         });
 
         const createdGig = await gig.save();
@@ -35,9 +38,12 @@ const getGigs = async (req, res) => {
 
 const getGigById = async (req, res) => {
     try {
+
         const gig = await Gig.findById(req.params.id)
             .populate('requester', 'name profilePicture')
-            .populate('assignee', 'name profilePicture'); // Also get assignee info if it exists
+            .populate('assignee', 'name profilePicture')
+            .populate('applicants', 'name profilePicture');
+
 
         if (gig) {
             res.status(200).json(gig);
@@ -91,31 +97,31 @@ const deleteGig = async (req, res) => {
     }
 };
 
-const applyForGig = async (req, res) => {
-    try {
-        const gig = await Gig.findById(req.params.id);
+// const applyForGig = async (req, res) => {
+//     try {
+//         const gig = await Gig.findById(req.params.id);
 
-        if (gig) {
-            if (gig.requester.toString() === req.user._id.toString()) {
-                return res.status(400).json({ message: 'You cannot apply for your own gig' });
-            }
-            // Add the user to the applicants array if not already applied
-            if (gig.applicants.includes(req.user._id)) {
-                return res.status(400).json({ message: 'You have already applied for this gig' });
-            }
+//         if (gig) {
+//             if (gig.requester.toString() === req.user._id.toString()) {
+//                 return res.status(400).json({ message: 'You cannot apply for your own gig' });
+//             }
+//             // Add the user to the applicants array if not already applied
+//             if (gig.applicants.includes(req.user._id)) {
+//                 return res.status(400).json({ message: 'You have already applied for this gig' });
+//             }
 
-            gig.applicants.push(req.user._id);
-            gig.status = 'Pending Approval'; // Update status
+//             gig.applicants.push(req.user._id);
+//             gig.status = 'Pending Approval'; // Update status
 
-            await gig.save();
-            res.status(200).json({ message: 'Application submitted successfully' });
-        } else {
-            res.status(404).json({ message: 'Gig not found' });
-        }
-    } catch (error) {
-        res.status(500).json({ message: 'Server Error' });
-    }
-};
+//             await gig.save();
+//             res.status(200).json({ message: 'Application submitted successfully' });
+//         } else {
+//             res.status(404).json({ message: 'Gig not found' });
+//         }
+//     } catch (error) {
+//         res.status(500).json({ message: 'Server Error' });
+//     }
+// };
 
 // @desc    Approve an applicant for a gig
 // @route   PUT /api/gigs/:id/approve
@@ -147,6 +153,57 @@ const approveGigApplicant = async (req, res) => {
 };
 
 
+const applyForGig = async (req, res) => {
+    try {
+        const gig = await Gig.findById(req.params.id);
+
+        if (!gig) {
+            return res.status(404).json({ message: 'Gig not found' });
+        }
+
+        if (gig.requester.toString() === req.user._id.toString()) {
+            return res.status(400).json({ message: 'You cannot apply for your own gig' });
+        }
+
+        if (gig.applicants.includes(req.user._id)) {
+            return res.status(400).json({ message: 'You have already applied for this gig' });
+        }
+
+        gig.applicants.push(req.user._id);
+
+        await gig.save();
+        res.status(200).json({ message: 'Application submitted successfully' });
+
+    } catch (error) {
+        res.status(500).json({ message: 'Server Error' });
+    }
+};
+
+const rejectGigApplicant = async (req, res) => {
+    try {
+        const { applicantId } = req.body;
+        const gig = await Gig.findById(req.params.id);
+
+        if (!gig) return res.status(404).json({ message: 'Gig not found' });
+
+        if (gig.requester.toString() !== req.user._id.toString()) {
+            return res.status(401).json({ message: 'Not authorized' });
+        }
+
+        // Remove applicant
+        gig.applicants = gig.applicants.filter(
+            (appId) => appId.toString() !== applicantId
+        );
+
+        await gig.save();
+        res.status(200).json({ message: 'Applicant rejected' });
+    } catch (error) {
+        res.status(500).json({ message: 'Server Error' });
+    }
+};
+
+
+
 
 
 
@@ -157,7 +214,8 @@ module.exports = {
     deleteGig,
     updateGig,
     approveGigApplicant,
-    applyForGig
+    applyForGig,
+    rejectGigApplicant
 
 
 };

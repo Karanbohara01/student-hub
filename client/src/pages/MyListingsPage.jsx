@@ -26,7 +26,7 @@
 //       <div className="mt-auto pt-4 flex gap-2">
 //         <Link to={`/books/${book._id}/edit`} className="flex-1 text-center text-xs px-2 py-2 bg-[#48aae6] text-white font-bold rounded-xl hover:bg-[#3a8cc4] border-2 border-black">EDIT</Link>
 //         {book.status === 'Available' && (
-//           <button onClick={() => handleStatusUpdate('Sold')} className="flex-1 text-xs px-2 py-2 bg-green-500 text-white font-bold rounded-xl hover:bg-green-600 border-2 border-black">MARK SOLD</button>
+//           <button onClick={() => handleStatusUpdate('Sold')} className="flex-1 text-xs px-2 py-2 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-600 border-2 border-black">MARK SOLD</button>
 //         )}
 //         {book.status === 'Sold' && (
 //           <button onClick={() => handleStatusUpdate('Available')} className="flex-1 text-xs px-2 py-2 bg-yellow-500 text-white font-bold rounded-xl hover:bg-yellow-600 border-2 border-black">MARK AVAILABLE</button>
@@ -154,7 +154,7 @@ const MyBookListingCard = ({ book, onStatusChange }) => {
         {book.status === 'Available' ? (
           <button
             onClick={() => handleStatusUpdate('Sold')}
-            className="text-xs px-4 py-2 bg-green-500 text-white font-bold rounded-xl hover:bg-green-600 border-2 border-black"
+            className="text-xs px-4 py-2 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-600 border-2 border-black"
           >
             ✅ Mark as Sold
           </button>

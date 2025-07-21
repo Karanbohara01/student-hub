@@ -259,7 +259,7 @@ const NoteDetailPage = () => {
           <a
             href={`${import.meta.env.VITE_BACKEND_URL}${note.filePath}`}
             download={`${note.title.replace(/\s+/g, '_')}.${note.filePath.split('.').pop()}`}
-            className="inline-flex items-center gap-2 px-8 py-3 bg-[#58cc02] text-white font-bold rounded-xl hover:bg-[#46a302] shadow-md border-2 border-black focus:outline-none focus:ring-2 focus:ring-[#58cc02] focus:ring-offset-2"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-700 shadow-md border-2 border-black focus:outline-none focus:ring-2 focus:ring-[#58cc02] focus:ring-offset-2"
             style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
             aria-label={`Download note: ${note.title}`}
           >

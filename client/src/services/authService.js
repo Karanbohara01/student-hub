@@ -45,6 +45,25 @@ const getFavoriteNotes = async () => {
     return response.data;
 };
 
+
+const getUserPublicProfile = async (userId) => {
+    if (!userId) {
+        throw new Error("User ID is required to fetch public profile");
+    }
+    const response = await axios.get(`${API_URL_USERS}/${userId}/profile`);
+    return response.data;
+};
+const updateProfile = async (profileData) => {
+    const response = await axios.put('/api/users/profile', profileData);
+    return response.data;
+};
+const updateProfilePicture = async (fileData) => {
+    const response = await axios.put(`${API_URL_USERS}/profile/picture`, fileData, {
+        headers: { 'Content-Type': 'multipart/form-data' },
+    });
+    return response.data;
+};
+
 const authService = {
     register,
     login,
@@ -54,6 +73,9 @@ const authService = {
     addNoteToFavorites,
     getFavoriteNotes,
     removeNoteFromFavorites,
+    getUserPublicProfile,
+    updateProfile,
+    updateProfilePicture,
 };
 
 

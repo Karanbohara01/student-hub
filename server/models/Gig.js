@@ -20,6 +20,9 @@ const gigSchema = new mongoose.Schema(
             type: String,
             required: true,
         },
+        filePath: {
+            type: String, // To store the path of the uploaded PDF
+        },
         subject: {
             type: String,
             required: true,

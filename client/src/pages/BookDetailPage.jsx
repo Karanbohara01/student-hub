@@ -94,6 +94,7 @@ const BookDetailPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-100 py-8 px-4">
+
       {/* Floating Back Button */}
       <div className="fixed top-4 left-4 z-10">
         <Link
@@ -108,6 +109,7 @@ const BookDetailPage = () => {
       <div className="max-w-4xl mx-auto">
         {/* Book Card */}
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden border-4 border-purple-200">
+
           {/* Book Cover and Basic Info */}
           <div className="md:flex">
             <div className="md:w-1/3 p-6 bg-purple-50 flex items-center justify-center">
@@ -133,13 +135,14 @@ const BookDetailPage = () => {
                 >
                   by {book.author}
                 </p>
+
               </div>
 
               {/* Status Badge */}
               <div className="mb-6">
                 <span
                   className={`inline-block px-4 py-1 rounded-full text-sm font-bold ${book.status === 'Available'
-                    ? 'bg-green-100 text-green-800'
+                    ? 'bg-purple-100 text-purple-800'
                     : 'bg-red-100 text-red-800'
                     }`}
                   style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
@@ -213,7 +216,9 @@ const BookDetailPage = () => {
                     This book is available for free!
                   </p>
                 )}
+
               </div>
+
             </div>
           </div>
 

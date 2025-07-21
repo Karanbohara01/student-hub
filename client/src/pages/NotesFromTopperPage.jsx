@@ -23,7 +23,7 @@ const TopperNoteCard = ({ note }) => (
       </div>
       <div className="mt-4 pt-2 border-t">
         <p className="text-sm text-gray-500" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-          Uploaded by: <span className="font-bold">{note.postedBy.name}</span>
+          Uploaded by: <span className="font-bold">{note?.postedBy?.name}</span>
         </p>
       </div>
     </div>

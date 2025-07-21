@@ -80,24 +80,50 @@ const verifyEmail = async (req, res) => {
 };
 
 
+// const loginUser = async (req, res) => {
+//     const { email, password } = req.body;
+
+//     try {
+//         const user = await User.findOne({ email });
+
+//         if (user && (await user.matchPassword(password))) {
+//             // --- ADD THIS CHECK ---
+//             if (!user.isEmailVerified) {
+//                 return res.status(401).json({ message: 'Please verify your email before logging in.' });
+//             }
+//             // --- END OF CHECK ---
+
+//             generateToken(res, user._id);
+//             res.status(200).json({
+//                 _id: user._id,
+//                 name: user.name,
+//                 email: user.email,
+//             });
+//         } else {
+//             res.status(401).json({ message: 'Invalid email or password' });
+//         }
+//     } catch (error) {
+//         res.status(401).json({ message: error.message });
+//     }
+// };
+
 const loginUser = async (req, res) => {
     const { email, password } = req.body;
-
     try {
         const user = await User.findOne({ email });
 
         if (user && (await user.matchPassword(password))) {
-            // --- ADD THIS CHECK ---
             if (!user.isEmailVerified) {
                 return res.status(401).json({ message: 'Please verify your email before logging in.' });
             }
-            // --- END OF CHECK ---
 
             generateToken(res, user._id);
+
             res.status(200).json({
                 _id: user._id,
                 name: user.name,
                 email: user.email,
+                isAdmin: user.isAdmin, // <-- Add this line
             });
         } else {
             res.status(401).json({ message: 'Invalid email or password' });
@@ -156,19 +182,12 @@ const forgotPassword = async (req, res) => {
         res.status(200).json({ message: 'If a user with that email exists, a password reset link has been sent.' });
 
     } catch (error) {
-        // Clear reset fields if something goes wrong
-        // const user = await User.findOne({ email: req.body.email });
-        // user.passwordResetToken = undefined;
-        // user.passwordResetExpires = undefined;
-        // await user.save();
+
         res.status(500).json({ message: 'Server Error' });
     }
 };
 
 
-// @desc    Reset password
-// @route   PUT /api/auth/reset-password/:token
-// @access  Public
 const resetPassword = async (req, res) => {
     try {
         // 1. Get the hashed token
