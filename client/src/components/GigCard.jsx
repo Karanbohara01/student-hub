@@ -1,35 +1,4 @@
-// import { Link } from 'react-router-dom';
-// import { FaUserCircle } from 'react-icons/fa';
 
-// const GigCard = ({ gig }) => {
-//   return (
-//     <Link to={`/gigs/${gig._id}`} className="block">
-//       <div className="bg-white rounded-2xl shadow-lg p-5 h-full flex flex-col border-2 border-black hover:border-[#6e48aa] transition-colors duration-200">
-//         <div className="flex-grow">
-//           <p className="text-sm font-bold text-gray-500" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-//             {gig.subject}
-//           </p>
-//           <h3 className="text-xl font-bold text-[#6e48aa] mt-2" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-//             {gig.title}
-//           </h3>
-//         </div>
-//         <div className="mt-4 pt-4 border-t-2 border-gray-100 flex justify-between items-center">
-//           <p className="text-xl font-bold text-purple-600" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-//             Rs. {gig.budget}
-//           </p>
-//           <div className="flex items-center gap-2">
-//             <FaUserCircle className="text-gray-400" />
-//             <span className="text-sm font-bold text-gray-600" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-//               {gig.requester.name}
-//             </span>
-//           </div>
-//         </div>
-//       </div>
-//     </Link>
-//   );
-// };
-
-// export default GigCard;
 
 import { Link } from 'react-router-dom';
 import { FaUserCircle } from 'react-icons/fa';

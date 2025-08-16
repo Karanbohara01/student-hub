@@ -49,6 +49,7 @@ const bookSchema = new mongoose.Schema(
             enum: ['Available', 'Sold', 'Exchanged'], // <-- Updated from 'Rented Out'
             default: 'Available',
         },
+
     },
     {
         timestamps: true,

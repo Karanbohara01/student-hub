@@ -1,5 +1,6 @@
-const Book = require('../models/Book.js');
 
+
+const Book = require('../models/Book.js');
 
 const createBookListing = async (req, res) => {
     try {
@@ -164,8 +165,6 @@ const updateListingStatus = async (req, res) => {
         res.status(500).json({ message: 'Server Error' });
     }
 };
-
-
 
 
 

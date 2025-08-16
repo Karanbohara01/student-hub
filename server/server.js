@@ -22,6 +22,10 @@ const noteRoutes = require('./routes/noteRoutes.js');
 const dataRoutes = require('./routes/dataRoutes.js'); // <-- ADD THIS
 const adminRoutes = require('./routes/adminRoutes.js');
 const paymentRoutes = require('./routes/paymentRoutes.js');
+const fileProxyRoute = require('./routes/fileProxy');
+
+
+
 
 
 
@@ -68,6 +72,7 @@ app.use('/api/notes', noteRoutes);
 app.use('/api/data', dataRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/payments', paymentRoutes);
+app.use('/api/files', fileProxyRoute);
 
 
 

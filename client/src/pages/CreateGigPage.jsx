@@ -95,7 +95,7 @@ const CreateGigPage = () => {
 
   return (
     <div className="max-w-2xl mx-auto p-4" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-      <div className="bg-white p-8 rounded-3xl shadow-lg border-4 border-black">
+      <div className="bg-white p-8 rounded-3xl shadow-lg border-4 border-purple-700">
         <h1 className="text-3xl font-bold text-center text-[#6e48aa] mb-6">Post a New Gig</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
           <input name="title" type="text" placeholder="Title (e.g., 'Need a website designed')" value={formData.title} onChange={handleChange} required className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl" />
@@ -113,7 +113,7 @@ const CreateGigPage = () => {
             {gigFile && <p className="text-sm text-purple-600 mt-2">File selected: {gigFile.name}</p>}
           </div>
 
-          <button type="submit" className="w-full py-3 font-bold text-white bg-[#6e48aa] rounded-xl border-2 border-black hover:bg-[#5a3a8a]">
+          <button type="submit" className="w-full py-3 font-bold text-white bg-purple-500 rounded-xl border-2 border-black hover:bg-[#5a3a8a]">
             POST GIG
           </button>
         </form>

@@ -73,8 +73,8 @@ const EditBookPage = () => {
   if (loading) return <p className="text-center p-10">Loading...</p>;
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#6e48aa] p-4">
-      <div className="w-full max-w-2xl p-8 space-y-6 bg-white rounded-3xl shadow-lg border-4 border-black">
+    <div className="flex justify-center items-center min-h-screen   p-4">
+      <div className="w-full max-w-2xl p-8 space-y-6 bg-white rounded-lg shadow-lg border-4 border-purple-700">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-[#6e48aa]" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>Edit Book Listing</h1>
           <div className="w-16 h-2 bg-[#48aae6] rounded-full mx-auto mt-2"></div>
@@ -92,10 +92,10 @@ const EditBookPage = () => {
               <option>Acceptable</option>
             </select>
           </div>
-          <button type="submit" className="w-full px-4 py-3 font-bold text-white bg-[#48aae6] rounded-xl hover:bg-[#3a8cc4] shadow-md border-2 border-black">SAVE CHANGES</button>
+          <button type="submit" className="w-full px-4 py-3 font-bold text-white bg-[#48aae6] rounded-md hover:bg-[#3a8cc4] shadow-md border-2 border-purple-700">SAVE CHANGES</button>
         </form>
         <div className="mt-6 border-t-2 border-gray-200 pt-6">
-          <button onClick={handleDelete} className="w-full px-4 py-3 font-bold text-white bg-[#ff4757] rounded-xl hover:bg-[#e03f4f] shadow-md border-2 border-black">DELETE LISTING</button>
+          <button onClick={handleDelete} className="w-full px-4 py-3 font-bold text-white bg-[#ff4757] rounded-md hover:bg-[#e03f4f] shadow-md border-2 border-purple-700">DELETE LISTING</button>
         </div>
       </div>
     </div>

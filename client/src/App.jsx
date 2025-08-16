@@ -53,7 +53,7 @@ function App() {
         <Route path="/books/create" element={<ProtectedRoute><CreateBookPage /></ProtectedRoute>} />
         <Route path="/books" element={<BookListPage />} />
         <Route path="/books/:id" element={<BookDetailPage />} />
-        <Route path="/books/:id/edit" element={<ProtectedRoute><EditBookPage /></ProtectedRoute>} /> {/* <-- Add this route */}
+        <Route path="/books/:id/edit" element={<ProtectedRoute><EditBookPage /></ProtectedRoute>} />  
         <Route path="/my-listings" element={<ProtectedRoute><MyListingsPage /></ProtectedRoute>} />
         <Route path="/chat" element={<ProtectedRoute><ChatPage /></ProtectedRoute>} />
         <Route path="/notes/upload" element={<ProtectedRoute><UploadNotePage /></ProtectedRoute>} />

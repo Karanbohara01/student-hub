@@ -1,112 +1,4 @@
-// import { useState, useEffect, useCallback } from 'react'; // <-- Import useCallback
-// import bookService from '../services/bookService';
-// import { toast } from 'react-hot-toast';
-// import { Link } from 'react-router-dom';
 
-// // This is a special card just for the management page
-// const MyBookListingCard = ({ book, onStatusChange }) => {
-//   const handleStatusUpdate = async (newStatus) => {
-//     if (window.confirm(`Are you sure you want to mark this book as ${newStatus}?`)) {
-//       try {
-//         await bookService.updateListingStatus(book._id, newStatus);
-//         toast.success(`Listing marked as ${newStatus}!`);
-//         onStatusChange(); // Refresh the list
-//       } catch (error) {
-//         console.log(error);
-
-//         toast.error('Failed to update status.');
-//       }
-//     }
-//   };
-
-//   return (
-//     <div className="bg-white rounded-2xl shadow-lg border-2 border-black p-4 flex flex-col">
-//       <h3 className="font-bold text-[#6e48aa]" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>{book.title}</h3>
-//       <p className="text-sm text-gray-500">Status: <span className="font-bold">{book.status}</span></p>
-//       <div className="mt-auto pt-4 flex gap-2">
-//         <Link to={`/books/${book._id}/edit`} className="flex-1 text-center text-xs px-2 py-2 bg-[#48aae6] text-white font-bold rounded-xl hover:bg-[#3a8cc4] border-2 border-black">EDIT</Link>
-//         {book.status === 'Available' && (
-//           <button onClick={() => handleStatusUpdate('Sold')} className="flex-1 text-xs px-2 py-2 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-600 border-2 border-black">MARK SOLD</button>
-//         )}
-//         {book.status === 'Sold' && (
-//           <button onClick={() => handleStatusUpdate('Available')} className="flex-1 text-xs px-2 py-2 bg-yellow-500 text-white font-bold rounded-xl hover:bg-yellow-600 border-2 border-black">MARK AVAILABLE</button>
-//         )}
-//       </div>
-//     </div>
-//   );
-// };
-
-
-// const MyListingsPage = () => {
-//   const [books, setBooks] = useState([]);
-//   const [loading, setLoading] = useState(true);
-
-//   // Moved fetchMyListings out and wrapped in useCallback for stability
-//   const fetchMyListings = useCallback(async () => {
-//     try {
-//       setLoading(true);
-//       const data = await bookService.getMyBookListings();
-//       setBooks(data);
-//     } catch (error) {
-//       console.log(error);
-
-//       toast.error('Could not fetch your listings.');
-//     } finally {
-//       setLoading(false);
-//     }
-//   }, []);
-
-//   useEffect(() => {
-//     fetchMyListings();
-//   }, [fetchMyListings]);
-
-//   if (loading) {
-//     return <p className="text-center p-10">Loading your listings...</p>;
-//   }
-
-//   return (
-//     <div className="max-w-7xl mx-auto px-4 py-8">
-//       <div className="text-center mb-8">
-//         <h1 className="text-4xl font-bold text-[#6e48aa]" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-//           My Book Listings
-//         </h1>
-//       </div>
-//       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-//         {books.length > 0 ? (
-//           // Only render the MyBookListingCard
-//           books.map((book) => (
-//             <MyBookListingCard key={book._id} book={book} onStatusChange={fetchMyListings} />
-//           ))
-//         ) : (
-//           <div className="col-span-full text-center p-10 bg-white rounded-2xl border-2 border-black">
-//             <p className="text-xl text-gray-500" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
-//               You haven't listed any books yet.
-//             </p>
-//             <Link
-//               to="/books/create"
-//               className="mt-4 inline-block px-6 py-2 bg-[#48aae6] text-white font-bold rounded-xl hover:bg-[#3a8cc4] shadow-md border-2 border-black"
-//               style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
-//             >
-//               List Your First Book
-//             </Link>
-//           </div>
-
-
-//         )}
-
-//         <Link
-//           to="/books/create"
-//           className=""
-//           style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
-//         >
-//           List Your  Book
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default MyListingsPage;
 
 import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
@@ -227,7 +119,7 @@ const MyListingsPage = () => {
           </p>
           <Link
             to="/books/create"
-            className="inline-block px-6 py-3 bg-[#48aae6] text-white font-bold rounded-xl hover:bg-[#3a8cc4] border-2 border-black"
+            className="inline-block px-6 py-3 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-500 border-2 border-black"
             style={{ fontFamily: "'Comic Sans MS', cursive" }}
           >
             🚀 List Your First Book

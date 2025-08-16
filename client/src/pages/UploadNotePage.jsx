@@ -293,7 +293,7 @@ const UploadNotePage = () => {
   const buttonStyle = "w-full py-3 px-4 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-lg shadow-md transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center";
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 to-indigo-800 p-4 flex items-center justify-center">
+    <div className="min-h-screen  p-4 flex items-center justify-center">
       <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl overflow-hidden">
         {/* Header Section */}
         <div className="bg-purple-700 p-6 text-white">

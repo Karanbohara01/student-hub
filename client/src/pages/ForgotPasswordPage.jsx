@@ -20,7 +20,7 @@ const ForgotPasswordPage = () => {
 
     if (submitted) {
         return (
-            <div className="flex justify-center items-center min-h-screen bg-[#6e48aa]">
+            <div className="flex justify-center items-center min-h-screen  ">
                 <div className="w-full max-w-md p-8 text-center bg-white rounded-3xl shadow-lg border-4 border-black">
                     <h1 className="text-2xl font-bold text-purple-600 mb-4" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>Request Sent!</h1>
                     <p className="text-gray-700" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
@@ -32,7 +32,7 @@ const ForgotPasswordPage = () => {
     }
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-[#6e48aa] p-4">
+        <div className="flex justify-center items-center min-h-screen p-4">
             <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-3xl shadow-lg border-4 border-black">
                 <div className="text-center">
                     <h1 className="text-3xl font-bold text-[#6e48aa] mb-2" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif", textShadow: "2px 2px 0px rgba(0,0,0,0.1)" }}>
@@ -58,7 +58,8 @@ const ForgotPasswordPage = () => {
                     </div>
                     <button
                         type="submit"
-                        className="w-full px-4 py-3 font-bold text-white bg-[#6e48aa] rounded-xl hover:bg-[#5a3a8a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#6e48aa] transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md border-2 border-black"
+                        className="w-full px-4 py-3 font-bold text-white 
+                         rounded-xl hover:bg-[#5a3a8a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#6e48aa] transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md border-2 border-black"
                         style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif", letterSpacing: "0.5px" }}
                     >
                         Send Reset Link

@@ -1,6 +1,4 @@
 
-
-
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
@@ -30,7 +28,7 @@ const LoginPage = () => {
     };
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-[#6e48aa] p-4">
+        <div className="flex justify-center items-center min-h-screen   p-4">
             <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-3xl shadow-lg border-4 border-black">
                 <div className="text-center">
                     <h1 className="text-3xl font-bold text-[#6e48aa] mb-2" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif", textShadow: "2px 2px 0px rgba(0,0,0,0.1)" }}>

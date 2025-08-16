@@ -34,40 +34,8 @@ const getMessages = async (req, res) => {
   }
 };
 
-// const findOrCreateConversation = async (req, res) => {
-//   const { receiverId } = req.body;
-//   const senderId = req.user._id;
 
-//   if (!receiverId) {
-//     return res.status(400).json({ message: 'Receiver ID is required.' });
-//   }
 
-//   try {
-//     // Sort participant IDs to ensure consistent query
-//     const participants = [senderId, receiverId].sort();
-
-//     // Use findOneAndUpdate with upsert to avoid race conditions
-//     let conversation = await Conversation.findOneAndUpdate(
-//       {
-//         participants: {
-//           $all: participants,
-//           $size: 2
-//         }
-//       },
-//       { $setOnInsert: { participants } },
-//       {
-//         new: true,
-//         upsert: true,
-//         populate: { path: 'participants', select: 'name profilePicture' }
-//       }
-//     );
-
-//     res.status(200).json(conversation);
-//   } catch (error) {
-//     console.error('Error in findOrCreateConversation:', error);
-//     res.status(500).json({ message: 'Server Error' });
-//   }
-// };
 
 const findOrCreateConversation = async (req, res) => {
   const { receiverId } = req.body;
