@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import bookService from '../services/bookService';
@@ -63,7 +64,6 @@ const EditBookPage = () => {
         toast.success('Listing deleted!');
         navigate('/books');
       } catch (error) {
-        console.log(error);
 
         toast.error('Failed to delete listing.');
       }
