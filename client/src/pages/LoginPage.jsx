@@ -29,7 +29,7 @@ const LoginPage = () => {
 
     return (
         <div className="flex justify-center items-center min-h-screen   p-4">
-            <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-3xl shadow-lg border-4 border-black">
+            <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-3xl shadow-lg border-4 border-purple-700">
                 <div className="text-center">
                     <h1 className="text-3xl font-bold text-[#6e48aa] mb-2" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif", textShadow: "2px 2px 0px rgba(0,0,0,0.1)" }}>
                         Login to Your Account
@@ -98,12 +98,7 @@ const LoginPage = () => {
                         Forgot Password?
                     </Link>
                 </div>
-                <p className="text-md text-center text-duo-gray mt-8">
-                    Don't have an account?{' '}
-                    <Link to="/register" className="font-bold text-duo-blue hover:underline">
-                        Sign up
-                    </Link>
-                </p>
+
 
             </div>
         </div>

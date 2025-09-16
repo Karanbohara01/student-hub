@@ -34,14 +34,14 @@ const RegisterPage = () => {
     if (submitted) {
         return (
             <div className="flex justify-center items-center min-h-screen  ">
-                <div className="w-full max-w-md p-8 text-center bg-white rounded-3xl shadow-lg border-4 border-black">
+                <div className="w-full max-w-md p-8 text-center bg-white rounded-3xl shadow-lg border-4 border-purple-700">
                     <h1 className="text-3xl font-bold text-[#6e48aa] mb-4" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
                         Registration Successful!
                     </h1>
                     <p className="text-gray-700 mb-6" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}>
                         We've sent a verification link to your email address. Please check your inbox to complete the process.
                     </p>
-                    <div className="w-24 h-24 bg-[#6e48aa] rounded-full mx-auto flex items-center justify-center border-4 border-black">
+                    <div className="w-24 h-24 bg-[#6e48aa] rounded-full mx-auto flex items-center justify-center border-4 border-purple-700">
                         <span className="text-4xl text-white">✓</span>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const RegisterPage = () => {
 
     return (
         <div className="flex justify-center items-center min-h-screen   p-4">
-            <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-3xl shadow-lg border-4 border-black">
+            <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-3xl shadow-lg border-4 border-purple-700">
                 <div className="text-center">
                     <h1 className="text-3xl font-bold text-[#6e48aa] mb-2" style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif", textShadow: "2px 2px 0px rgba(0,0,0,0.1)" }}>
                         Create an Account
@@ -130,7 +130,7 @@ const RegisterPage = () => {
                     <button
                         type="submit"
                         disabled={!agreed}
-                        className="w-full px-4 py-3 font-bold text-white bg-[#6e48aa] rounded-xl hover:bg-[#5a3a8a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#6e48aa] disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md border-2 border-black"
+                        className="w-full px-4 py-3 font-bold text-white bg-[#6e48aa] rounded-xl hover:bg-[#5a3a8a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#6e48aa] disabled:bg-gray-400 disabled:cursor-not-allowed transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-md border-2 border-purple-700"
                         style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif", letterSpacing: "0.5px" }}
                     >
                         REGISTER NOW

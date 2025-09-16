@@ -9,7 +9,7 @@ import { FaSearch, FaFilter, FaTimes } from 'react-icons/fa';
 const NoteCard = ({ note }) => {
   return (
     <article
-      className="bg-white rounded-2xl shadow-lg p-4 h-full flex flex-col border-2 border-black hover:border-[#6e48aa] transition-colors duration-200"
+      className="bg-white rounded-2xl shadow-lg p-4 h-full flex flex-col border-2 border-purple-700 hover:border-[#6e48aa] transition-colors duration-200"
       aria-labelledby={`note-title-${note._id}`}
     >
       <Link
@@ -170,7 +170,7 @@ const NotesPage = () => {
         </p>
         <Link
           to="/notes/upload"
-          className="w-full md:w-auto text-center px-6 py-3 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-700 shadow-md border-2 border-black focus:outline-none focus:ring-2 focus:ring-[#58cc02] focus:ring-offset-2"
+          className="w-full md:w-auto text-center px-6 py-3 bg-purple-500 text-white font-bold rounded-xl hover:bg-purple-700 shadow-md border-2 border-purple-700 focus:outline-none focus:ring-2 focus:ring-[#58cc02] focus:ring-offset-2"
           style={{ fontFamily: "'Comic Sans MS', cursive, sans-serif" }}
           aria-label="Upload a new note"
         >
