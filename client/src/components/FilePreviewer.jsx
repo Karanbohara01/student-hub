@@ -8,7 +8,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/3
 const FilePreviewer = ({ fileUrl }) => {
   const [numPages, setNumPages] = useState(null);
   const fileExtension = fileUrl.split('.').pop().toLowerCase();
-  const fullFileUrl = `${import.meta.env.VITE_BACKEND_URL}${fileUrl}`;
+  const fullFileUrl = `${"https://student-hub-backend-sc62.onrender.com"}${fileUrl}`;
 
   // Check for image
   if (['png', 'jpg', 'jpeg', 'webp'].includes(fileExtension)) {

@@ -224,11 +224,11 @@
 // export default CommentSection;
 
 
-import { useState, useEffect } from 'react';
-import noteService from '../services/noteService';
-import useAuthStore from '../store/authStore';
+import { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
+import noteService from '../services/noteService';
+import useAuthStore from '../store/authStore';
 
 const CommentSection = ({ noteId }) => {
   const [comments, setComments] = useState([]);
@@ -308,7 +308,7 @@ const CommentSection = ({ noteId }) => {
               <img
                 src={
                   comment.user.profilePicture
-                    ? `${import.meta.env.VITE_BACKEND_URL}${comment.user.profilePicture}`
+                    ? `${"https://student-hub-backend-sc62.onrender.com"}${comment.user.profilePicture}`
                     : '/default-avatar.png'
                 }
                 alt={comment.user.name}

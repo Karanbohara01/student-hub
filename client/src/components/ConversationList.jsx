@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import useAuthStore from '../store/authStore';
+import { useEffect, useState } from 'react';
 import io from 'socket.io-client';
+import useAuthStore from '../store/authStore';
 
 const socket = io('http://localhost:5001');
 
@@ -37,7 +37,7 @@ const ConversationList = ({ conversations, onSelectConvo, selectedConvoId }) => 
               className={`flex items-center p-4 border-b-2 border-gray-200 cursor-pointer ${isSelected ? 'bg-purple-100' : 'hover:bg-gray-100'}`}
             >
               <div className="relative mr-4">
-                <img src={`${import.meta.env.VITE_BACKEND_URL}${otherParticipant?.profilePicture}`} alt="avatar" className="w-12 h-12 rounded-full border-2 border-black" />
+                <img src={`${"https://student-hub-backend-sc62.onrender.com"}${otherParticipant?.profilePicture}`} alt="avatar" className="w-12 h-12 rounded-full border-2 border-black" />
 
 
                 {isOnline && (

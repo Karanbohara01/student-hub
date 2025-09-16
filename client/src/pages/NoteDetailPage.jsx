@@ -332,17 +332,17 @@
 
 // export default NoteDetailPage;
 
-import { useState, useEffect, useCallback } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import noteService from '../services/noteService';
+import { useCallback, useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
-import { FaDownload, FaArrowLeft, FaBookmark } from 'react-icons/fa';
-import StarRating from '../components/StarRating';
-import LeaveReview from '../components/LeaveReview';
-import useAuthStore from '../store/authStore';
-import authService from '../services/authService';
-import FileViewer from '../components/FileViewer';
+import { FaArrowLeft, FaBookmark, FaDownload } from 'react-icons/fa';
+import { Link, useParams } from 'react-router-dom';
 import CommentSection from '../components/CommentSection';
+import FileViewer from '../components/FileViewer';
+import LeaveReview from '../components/LeaveReview';
+import StarRating from '../components/StarRating';
+import authService from '../services/authService';
+import noteService from '../services/noteService';
+import useAuthStore from '../store/authStore';
 
 const NoteDetailPage = () => {
   const [note, setNote] = useState(null);
@@ -482,7 +482,7 @@ const NoteDetailPage = () => {
           )}
 
           <a
-            href={`${import.meta.env.VITE_BACKEND_URL}${note.filePath}`}
+            href={`${"https://student-hub-backend-sc62.onrender.com"}${note.filePath}`}
             download={`${note.title.replace(/\s+/g, '_')}.${note.filePath.split('.').pop()}`}
             className="flex items-center gap-2 px-5 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg shadow transition"
           >

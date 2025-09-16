@@ -110,7 +110,7 @@ const BookDetailPage = () => {
         {/* LEFT: Book Cover */}
         <div className="md:w-1/2   p-8 flex items-center justify-center border-r border-purple-100">
           <img
-            src={`${import.meta.env.VITE_BACKEND_URL}${book.coverImage}`}
+            src={`${"https://student-hub-backend-sc62.onrender.com"}${book.coverImage}`}
             alt={book.title}
             className="w-full max-w-sm object-cover  "
           />

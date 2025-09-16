@@ -281,13 +281,13 @@
 
 // export default ChatWindow;
 
-import { useState, useEffect, useRef } from 'react';
-import io from 'socket.io-client';
-import useAuthStore from '../store/authStore';
-import chatService from '../services/chatService';
+import { useEffect, useRef, useState } from 'react';
 import { toast } from 'react-hot-toast';
-import { FaPaperclip, FaImage, FaVideo, FaFileAlt, FaArrowUp, FaTimes } from 'react-icons/fa';
+import { FaArrowUp, FaFileAlt, FaImage, FaPaperclip, FaTimes, FaVideo } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import io from 'socket.io-client';
+import chatService from '../services/chatService';
+import useAuthStore from '../store/authStore';
 
 const socket = io('http://localhost:5001');
 
@@ -419,7 +419,7 @@ const ChatWindow = ({ selectedConvo }) => {
         <Link to={`/profile/${otherParticipant._id}`} className="flex items-center hover:opacity-90 transition-opacity">
           <div className="relative">
             <img
-              src={`${import.meta.env.VITE_BACKEND_URL}${otherParticipant.profilePicture}`}
+              src={`${"https://student-hub-backend-sc62.onrender.com"}${otherParticipant.profilePicture}`}
               alt="Profile"
               className="w-12 h-12 rounded-full object-cover border-2 border-purple-200 shadow-sm"
             />
@@ -463,22 +463,22 @@ const ChatWindow = ({ selectedConvo }) => {
                     {/* File Content */}
                     {msg.fileUrl && msg.fileType === 'image' && (
                       <img
-                        src={`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`}
+                        src={`${"https://student-hub-backend-sc62.onrender.com"}${msg.fileUrl}`}
                         alt="Sent content"
                         className="rounded-xl max-w-full cursor-pointer mb-2 hover:opacity-90 transition-opacity"
-                        onClick={() => window.open(`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`)}
+                        onClick={() => window.open(`${"https://student-hub-backend-sc62.onrender.com"}${msg.fileUrl}`)}
                       />
                     )}
                     {msg.fileUrl && msg.fileType === 'video' && (
                       <video
-                        src={`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`}
+                        src={`${"https://student-hub-backend-sc62.onrender.com"}${msg.fileUrl}`}
                         controls
                         className="rounded-xl max-w-full mb-2"
                       />
                     )}
                     {msg.fileUrl && msg.fileType === 'file' && (
                       <a
-                        href={`${import.meta.env.VITE_BACKEND_URL}${msg.fileUrl}`}
+                        href={`${"https://student-hub-backend-sc62.onrender.com"}${msg.fileUrl}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         download

@@ -57,9 +57,8 @@
 
 // export default BookCard;
 
-import React from 'react';
+import { FaBookmark, FaExchangeAlt, FaGift, FaMoneyBillWave, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { FaStar, FaBookmark, FaExchangeAlt, FaMoneyBillWave, FaGift, FaUser } from 'react-icons/fa';
 
 const BookCard = ({ book }) => {
   function readChar(title) {
@@ -118,7 +117,7 @@ const BookCard = ({ book }) => {
         <div className="relative bg-gradient-to-br from-slate-50 to-slate-100 p-4">
           <div className="relative">
             <img
-              src={`${import.meta.env.VITE_BACKEND_URL}${book.coverImage}`}
+              src={`${"https://student-hub-backend-sc62.onrender.com"}${book.coverImage}`}
               alt={book.title}
               className="w-full h-48 object-cover rounded-lg shadow-sm group-hover:shadow-md transition-shadow duration-300"
             />
@@ -172,7 +171,7 @@ const BookCard = ({ book }) => {
               </div>
             )}
 
-           
+
           </div>
 
 
@@ -182,7 +181,7 @@ const BookCard = ({ book }) => {
             <div className="pt-3 border-t border-slate-100">
               <div className="flex items-center">
                 <img
-                  src={book.owner.profilePicture ? `${import.meta.env.VITE_BACKEND_URL}${book.owner.profilePicture}` : '/default-avatar.png'}
+                  src={book.owner.profilePicture ? `${"https://student-hub-backend-sc62.onrender.com"}${book.owner.profilePicture}` : '/default-avatar.png'}
                   alt={book.owner.name}
                   className="w-6 h-6 rounded-full object-cover border border-slate-200"
                 />
@@ -197,7 +196,7 @@ const BookCard = ({ book }) => {
           )}
         </div>
 
-       
+
       </div>
     </Link>
   );

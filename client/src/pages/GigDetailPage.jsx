@@ -1,12 +1,12 @@
 
 
-import { useState, useEffect, useCallback } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
-import gigService from '../services/gigService';
+import { useCallback, useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
-import useAuthStore from '../store/authStore';
 import { FaDownload } from 'react-icons/fa';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import chatService from '../services/chatService'; // Import chatService
+import gigService from '../services/gigService';
+import useAuthStore from '../store/authStore';
 
 const GigDetailPage = () => {
   const [gig, setGig] = useState(null);
@@ -185,7 +185,7 @@ const GigDetailPage = () => {
         {gig.filePath && (
           <div className="mt-6">
             <a
-              href={`${import.meta.env.VITE_BACKEND_URL}${gig.filePath}`}
+              href={`${"https://student-hub-backend-sc62.onrender.com"}${gig.filePath}`}
               download
               className="inline-flex items-center gap-2 px-6 py-2 bg-purple-600 hover:bg-purple-700 transition text-white font-bold rounded-xl border-2 border-black"
             >
@@ -208,7 +208,7 @@ const GigDetailPage = () => {
                     >
                       <Link to={`/profile/${applicant._id}`} className="flex items-center gap-3">
                         <img
-                          src={`${import.meta.env.VITE_BACKEND_URL}${applicant?.profilePicture}`}
+                          src={`${"https://student-hub-backend-sc62.onrender.com"}${applicant?.profilePicture}`}
                           alt={applicant.name}
                           className="w-10 h-10 rounded-full border-2 border-black"
                         />

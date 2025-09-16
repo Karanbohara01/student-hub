@@ -46,7 +46,7 @@
 
 // export default FileViewer;
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
@@ -57,7 +57,7 @@ const FileViewer = ({ fileUrl }) => {
   const [numPages, setNumPages] = useState(null);
   const [pageWidth, setPageWidth] = useState(null);
   const fileExtension = fileUrl.split('.').pop().toLowerCase();
-  const fullFileUrl = `${import.meta.env.VITE_BACKEND_URL}${fileUrl}`;
+  const fullFileUrl = `${"https://student-hub-backend-sc62.onrender.com"}${fileUrl}`;
 
   // Handle responsive page width
   useEffect(() => {

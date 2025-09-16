@@ -1,13 +1,13 @@
 
 
 
-import { useState, useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { toast } from "react-hot-toast";
+import { FaDownload, FaEdit, FaGithub, FaImage, FaYoutube } from "react-icons/fa";
+import { Link, useParams } from "react-router-dom";
+import LeaveReview from "../components/LeaveReview";
 import projectService from "../services/projectService";
 import useAuthStore from "../store/authStore";
-import { toast } from "react-hot-toast";
-import { FaGithub, FaImage, FaEdit, FaYoutube, FaDownload } from "react-icons/fa";
-import LeaveReview from "../components/LeaveReview";
 
 const PlaceholderImage = () => (
     <div className="w-full h-64 bg-[#6e48aa] bg-opacity-10 rounded-xl border-2 border-dashed border-[#6e48aa] flex flex-col items-center justify-center text-[#6e48aa]">
@@ -122,7 +122,7 @@ const ProjectDetailPage = () => {
                             color="bg-[#58cc02] hover:bg-[#46a302]"
                             icon={<FaDownload />}
                             text="DOWNLOAD FILE"
-                            link={`${import.meta.env.VITE_BACKEND_URL}/api/projects/${project._id}/download`}
+                            link={`${"https://student-hub-backend-sc62.onrender.com"}/api/projects/${project._id}/download`}
                         />
                     )}
                     {!isOwner && !isPurchased && project.price > 0 && (
@@ -149,7 +149,7 @@ const ProjectDetailPage = () => {
                         ? project.screenshots.map((ss, index) => (
                             <img
                                 key={index}
-                                src={`${import.meta.env.VITE_BACKEND_URL}${ss}`}
+                                src={`${"https://student-hub-backend-sc62.onrender.com"}${ss}`}
                                 alt={`Screenshot ${index + 1}`}
                                 className="rounded-xl shadow-lg border-2 border-black w-full h-auto object-cover"
                             />

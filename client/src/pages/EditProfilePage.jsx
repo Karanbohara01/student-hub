@@ -146,7 +146,7 @@ const EditProfilePage = () => {
         bio: userInfo.bio || '',
       });
       if (userInfo.profilePicture) {
-        setPreviewImage(`${import.meta.env.VITE_BACKEND_URL}${userInfo.profilePicture}`);
+        setPreviewImage(`${"https://student-hub-backend-sc62.onrender.com"}${userInfo.profilePicture}`);
       }
     }
   }, [userInfo]);

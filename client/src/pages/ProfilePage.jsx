@@ -171,7 +171,7 @@ export default function ProfilePage() {
     );
 
     const { user, notes = [], projects = [], reviews = [] } = profileData;
-    const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "";
+    const BACKEND_URL = "https://student-hub-backend-sc62.onrender.com" || "";
 
     return (
         <div className="min-h-[calc(100vh-80px)] bg-gradient-to-b from-purple-50 via-white to-purple-50/40">
