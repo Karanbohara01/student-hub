@@ -128,9 +128,9 @@ var verifyEsewaPayment = /*#__PURE__*/function () {
           _context2.n = 4;
           return order.save();
         case 4:
-          return _context2.a(2, res.redirect("http://localhost:5173/payment/success?orderId=".concat(order._id)));
+          return _context2.a(2, res.redirect("https://student-hub-frontend-pq6x.onrender.com/payment/success?orderId=".concat(order._id)));
         case 5:
-          return _context2.a(2, res.redirect("http://localhost:5173/payment/fail"));
+          return _context2.a(2, res.redirect("https://student-hub-frontend-pq6x.onrender.com/payment/fail"));
         case 6:
           _context2.n = 8;
           break;

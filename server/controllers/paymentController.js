@@ -88,9 +88,9 @@ const verifyEsewaPayment = async (req, res) => {
 
       await order.save();
 
-      return res.redirect(`http://localhost:5173/payment/success?orderId=${order._id}`);
+      return res.redirect(`https://student-hub-frontend-pq6x.onrender.com/payment/success?orderId=${order._id}`);
     } else {
-      return res.redirect(`http://localhost:5173/payment/fail`);
+      return res.redirect(`https://student-hub-frontend-pq6x.onrender.com/payment/fail`);
     }
   } catch (error) {
     console.error(error.message);

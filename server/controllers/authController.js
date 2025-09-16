@@ -35,7 +35,7 @@ const registerUser = async (req, res) => {
             },
         });
 
-        const verificationLink = `http://localhost:5173/verify-email/${user.emailVerificationToken}`;
+        const verificationLink = `https://student-hub-frontend-pq6x.onrender.com/verify-email/${user.emailVerificationToken}`;
 
         const mailOptions = {
             from: process.env.EMAIL_USER,
@@ -158,7 +158,7 @@ const forgotPassword = async (req, res) => {
         await user.save();
 
         // 4. Send the email with the PLAIN token
-        const resetUrl = `http://localhost:5173/reset-password/${resetToken}`;
+        const resetUrl = `https://student-hub-frontend-pq6x.onrender.com/reset-password/${resetToken}`;
         const message = `You are receiving this email because you (or someone else) have requested the reset of a password. Please make a PUT request to: \n\n ${resetUrl}`;
 
         // Setup Nodemailer to send email (as we did for verification)

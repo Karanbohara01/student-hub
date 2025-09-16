@@ -38,7 +38,7 @@ const app = express();
 const httpServer = createServer(app); // Create HTTP server from Express app
 const io = new Server(httpServer, {   // Attach socket.io to the HTTP server
     cors: {
-        origin: "http://localhost:5173", // Your future React frontend URL
+        origin: "https://student-hub-frontend-pq6x.onrender.com", // Your future React frontend URL
         methods: ["GET", "POST"]
     }
 });
