@@ -159,20 +159,29 @@
 // export default Header;
 
 
-import { Link, useNavigate } from 'react-router-dom';
-import useAuthStore from '../store/authStore';
+import { useEffect, useRef, useState } from 'react';
 import { toast } from 'react-hot-toast';
-import io from 'socket.io-client';
-import { useEffect, useState, useRef } from 'react';
+import { FaBookmark, FaGraduationCap, FaStar } from 'react-icons/fa';
 import {
-    FiMenu, FiX, FiMessageSquare, FiBook, FiFileText, FiUser,
-    FiLogOut, FiLogIn, FiPlusCircle, FiList, FiChevronDown
+    FiBook,
+    FiChevronDown,
+    FiFileText,
+    FiList,
+    FiLogIn,
+    FiLogOut,
+    FiMenu,
+    FiMessageSquare,
+    FiPlusCircle,
+    FiUser,
+    FiX
 } from 'react-icons/fi';
-import { FaGraduationCap, FaBookmark, FaStar } from 'react-icons/fa';
+import { Link, useNavigate } from 'react-router-dom';
+import io from 'socket.io-client';
+import useAuthStore from '../store/authStore';
 // eslint-disable-next-line no-unused-vars
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 
-const socket = io('http://localhost:5001');
+const socket = io('https://student-hub-backend-sc62.onrender.com');
 
 const Header = () => {
     const { userInfo, logout } = useAuthStore();

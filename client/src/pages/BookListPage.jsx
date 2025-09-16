@@ -243,14 +243,14 @@
 // };
 
 // export default BookListPage;
-import { useState, useEffect } from 'react';
-import bookService from '../services/bookService';
-import BookCard from '../components/BookCard';
+import { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
+import { FaBook, FaBookOpen, FaExchangeAlt, FaFilter, FaGift, FaMoneyBillWave, FaSearch, FaShoppingCart, FaTimes, FaUsers } from 'react-icons/fa';
 import io from 'socket.io-client';
-import { FaSearch, FaBook, FaExchangeAlt, FaMoneyBillWave, FaGift, FaFilter, FaTimes, FaBookOpen, FaUsers, FaShoppingCart } from 'react-icons/fa';
+import BookCard from '../components/BookCard';
+import bookService from '../services/bookService';
 
-const socket = io('http://localhost:5001');
+const socket = io('https://student-hub-backend-sc62.onrender.com');
 
 const BookListPage = () => {
   const [books, setBooks] = useState([]);

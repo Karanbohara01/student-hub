@@ -36,8 +36,8 @@ const initiateEsewaPayment = async (req, res) => {
       tAmt: project.price,
       pid: transactionUuid,
       scd: process.env.ESEWA_MERCHANT_CODE,
-      su: `http://localhost:5001/api/payments/esewa/success`,
-      fu: `http://localhost:5001/api/payments/esewa/failure`,
+      su: `https://student-hub-backend-sc62.onrender.com/api/payments/esewa/success`,
+      fu: `https://student-hub-backend-sc62.onrender.com/api/payments/esewa/failure`,
     };
 
     res.status(200).json({

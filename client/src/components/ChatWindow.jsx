@@ -289,7 +289,7 @@ import io from 'socket.io-client';
 import chatService from '../services/chatService';
 import useAuthStore from '../store/authStore';
 
-const socket = io('http://localhost:5001');
+const socket = io('https://student-hub-backend-sc62.onrender.com');
 
 const ChatWindow = ({ selectedConvo }) => {
   const [messages, setMessages] = useState([]);
